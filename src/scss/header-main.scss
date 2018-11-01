@@ -1,0 +1,79 @@
+.header-main {
+  background-color: #fff;
+}
+
+.header-main__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-main__logo {
+  min-width: 150px;
+  margin-right: 55px;
+}
+
+.header-main__leftside {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-main__mail {
+  margin-right: 50px;
+  padding-right: 67px;
+  border-right: 1px solid #cacaca;
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 15px;
+  line-height: 1;
+  @include m-no-link-decor;
+  &:hover {
+    color: #21292c;
+  }
+}
+
+.header-main__mail-icon {
+  margin-right: 11px;
+}
+
+.header-main__rightside {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-main__time {
+  margin-right: 50px;
+  padding-right: 67px;
+  border-right: 1px solid #cacaca;
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.header-main__time-icon {
+  margin-right: 11px;
+}
+
+.header-main__tel {
+  margin-right: 85px;
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  @include m-no-link-decor;
+  &:hover {
+    color: #21292c;
+  }
+}
+
+.header-main__tel-icon {
+  margin-right: 9px;
+  color: #21292c;
+  font-size: 22px;
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.callback-btn {
+  @include m-reset-btn;
+  border: 1px solid $theme-color-1;
+  padding: 17px 42px;
+  color: #21292c;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  &:hover {
+    background-image: linear-gradient(to bottom, #1f9bc4, #48b8dd);
+    color: #fff;
+  }
+}

@@ -1,0 +1,28 @@
+.header-nav {
+  background-color: $theme-color-1;
+}
+
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @include m-reset-list;
+}
+
+.header-nav__link {
+  display: block;
+  padding: 22px 18px;
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 600;
+  background-color: $theme-color-1;
+  transition: background-color 0.25s;
+  font-size: 15px;
+  @include m-no-link-decor;
+  &:hover {
+    background-color: darken($theme-color-1, 10%);
+    transition: background-color 0.25s;
+    color: #fff;
+  }
+}

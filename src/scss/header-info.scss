@@ -1,0 +1,28 @@
+.header-info {
+  background-color: $bg-color-1;
+}
+
+.header-info__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.header-info__location {
+  color: #21292c;
+  font-size: 14px;
+}
+
+.header-info__discount {
+  color: #21292c;
+  font-size: 14px;
+  @include m-no-link-decor;
+  &:hover {
+    color: #306e85;
+  }
+}
+
+.header-info__discount-detailed {
+
+}
