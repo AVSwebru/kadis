@@ -1,0 +1,43 @@
+.home-service-item {
+  padding: 60px 60px 85px 60px;
+  &_first {
+    background: #199cc6 url('../img/home-service-item-1.jpg') 50% 50% no-repeat;
+    background-size: cover;
+  }
+  &_second {
+    background: #216f8c url('../img/home-service-item-2.jpg') 50% 50% no-repeat;
+    background-size: cover;
+  }
+  &_third {
+    background: #4d5b60 url('../img/home-service-item-3.jpg') 50% 50% no-repeat;
+    background-size: cover;
+  }
+}
+
+.home-service-item__title {
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home-service-item__list {
+  @include m-reset-list;
+  li {
+    margin-bottom: 30px;
+    padding-left: 27px;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    &::before {
+      content: '';
+      width: 18px;
+      height: 1px;
+      position: absolute;
+      top: 12px;
+      left: 0;
+      background-color: #fff;
+    }
+  }
+}

@@ -1,12 +1,11 @@
-.intro {
-  background: #0e4493 url('../img/intro.jpg') 50% 50% no-repeat;
+.home-intro {
+  background: #0e4493 url('../img/home-intro.jpg') 50% 50% no-repeat;
   background-size: cover;
   padding-top: 70px;
 }
 
-.intro__title {
+.home-intro__title {
   margin-bottom: 25px;
-  // text-transform: uppercase;
   color: #fff;
   font-family: $font-decor;
   font-size: 54px;
@@ -14,7 +13,7 @@
   line-height: 1;
 }
 
-.intro__text {
+.home-intro__text {
   margin-bottom: 230px;
   color: #fff;
   font-family: $font-decor;
@@ -23,16 +22,16 @@
   line-height: 1.1;
 }
 
-.intro__buttons {
+.home-intro__buttons {
   display: flex;
   align-items: center;
 }
 
-.intro__callback {
+.home-intro__callback {
   margin-right: 28px;
 }
 
-.intro__link {
+.home-intro__link {
   color: #fff;
   font-size: 12px;
   font-weight: 600;
@@ -40,7 +39,7 @@
   @include m-no-link-decor;
   &:hover {
     color: #fff;
-    .intro-link__arrow {
+    .home-intro-link__arrow {
       animation: arrow-move 0.25s ease-out;
     }
   }

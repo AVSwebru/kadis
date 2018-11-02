@@ -1,13 +1,18 @@
-.btn {
+.default-btn {
   padding: 24px 35px;
   background-color: $theme-color-1;
   border: none;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
+  line-height: 1;
   text-transform: uppercase;
   &:hover {
     background-image: linear-gradient(to bottom, #1f9bc4, #48b8dd);
     color: #fff;
+    text-decoration: none;
+    .default-btn__arrow {
+      animation: arrow-move 0.25s ease-out;
+    }
   }
 }

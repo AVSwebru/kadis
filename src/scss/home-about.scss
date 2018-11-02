@@ -1,0 +1,45 @@
+.home-about {
+  background-color: #fff;
+  padding-top: 118px;
+}
+
+.home-about__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.home-about__statistics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 70%;
+  position: relative;
+}
+
+.home-about__statistics-line {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 100vmax;
+  height: 2px;
+  background-color: #ff9600;
+}
+
+.home-about__offices {
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.home-about__offices-text {
+  margin-bottom: 15px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 20px;
+  font-weight: 600;
+}

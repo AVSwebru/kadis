@@ -1,18 +1,18 @@
-@mixin m-no-link-decor {
+@mixin m-no-link-decor() {
   text-decoration: none;
   &:hover {
     text-decoration: none;
   }
 }
 
-@mixin m-reset-list {
+@mixin m-reset-list() {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-@mixin m-reset-btn {
+@mixin m-reset-btn() {
   padding: 0;
-  border: none; 
+  border: none;
   background-color: transparent;
 }

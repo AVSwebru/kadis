@@ -1,0 +1,31 @@
+.home-about-top {
+  display: flex;
+  align-items: center;
+}
+
+.home-about-top__branches {
+  margin-right: 70px;
+  white-space: nowrap;
+}
+
+.home-about-top__left-branch,
+.home-about-top__right-branch {
+  width: 130px;
+  height: 168px;
+}
+
+.home-about-top__left-branch {
+  transform: scaleX(-1);
+}
+
+.home-about-top__list{
+  @include m-reset-list();
+  margin: 25px 0;
+  li {
+    margin-bottom: 15px;
+    color: #21292c;
+    font-family: $font-decor;
+    font-size: 38px;
+    font-weight: 600;
+  }
+}

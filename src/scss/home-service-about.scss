@@ -1,0 +1,37 @@
+.home-service-about {
+
+}
+
+.home-service-about__image {
+  height: 220px;
+  margin-bottom: 40px;
+}
+
+.home-service-about__title {
+  margin-bottom: 20px;
+  color: #111;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.home-service-about__list {
+  @include m-reset-list;
+  margin-left: 13px;
+  li {
+    margin-bottom: 20px;
+    padding-left: 27px;
+    position: relative;
+    color: #111;
+    font-size: 15px;
+    &::before {
+      content: '';
+      width: 17px;
+      height: 13px;
+      position: absolute;
+      top: 5px;
+      left: 0px;
+      background: url('../img/icon-check.svg') 50% 50% no-repeat;
+      background-size: 17px 13px;
+    }
+  }
+}

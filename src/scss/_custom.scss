@@ -25,5 +25,22 @@ $search-default-width: 200px;
   color: #21292c;
 }
 
+//tab
+$tab-item-padding-vertical: 15px;
+@mixin hook-tab() {
+  border-bottom: none;
+  & > * {
+    flex-grow: 1 !important;
+  }
+}
+
+@mixin hook-tab-item() {
+  border: 1px solid #dddddd;
+}
+
+@mixin hook-tab-item-active() {
+  border-bottom: 4px solid $theme-color-1;
+}
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

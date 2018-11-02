@@ -1,0 +1,15 @@
+.home-services {
+  background-color: #fff;
+}
+
+.home-services__grid {
+  display: grid;
+  grid-gap: 30px;
+  margin-bottom: 65px;
+  &:nth-child(n) {
+    grid-template-columns: minmax(350px, 610px) minmax(350px, 640px)
+  }
+  &:nth-child(2n) {
+    grid-template-columns:  minmax(350px, 640px) minmax(350px, 610px);
+  }
+}

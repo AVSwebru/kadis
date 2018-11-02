@@ -1,0 +1,47 @@
+.home-section {
+  padding-top: 90px;
+  &_dark {
+    .home-section__overhead {
+      color: #474a4b;
+    }
+    .home-section__title {
+      color: #21292c;
+    }
+    .home-section__desc {
+      color: #474a4b;
+    }
+  }
+  &_light {
+    .home-section__overhead {
+      color: #fff;
+    }
+    .home-section__title {
+      color: #fff;
+    }
+    .home-section__desc {
+      color: #fff;
+    }
+  }
+}
+
+.home-section__overhead {
+  margin-bottom: 40px;
+  color: #798184;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.home-section__title {
+  margin-bottom: 60px;
+
+  font-family: $font-decor;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.home-section__desc {
+  max-width: 320px;
+  font-size: 15px;
+}

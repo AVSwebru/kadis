@@ -1,0 +1,23 @@
+.partners-slider {
+  margin-bottom: 120px;
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.partners-slider__arrow {
+  color: #959595;
+  &:hover {
+    color: #959595;
+  }
+}
+
+.partners-slider__arrow-left {
+  left: -90px;
+}
+
+.partners-slider__arrow-right {
+  left: calc(100% + 90px);
+}

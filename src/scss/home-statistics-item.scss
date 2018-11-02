@@ -1,0 +1,42 @@
+.home-statistics-item {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.home-statistics-item__text-first {
+  padding-left: 40px;
+  color: #798184;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.home-statistics-item__number {
+  position: relative;
+  z-index: 2;
+  margin: 26px 0;
+  background-color: #fff;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.home-statistics-item__text-second {
+  max-width: 215px;
+  padding-left: 40px;
+  color: #474a4b;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.home-statistics-item__line {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 1;
+  background-color: #ff9600;
+}
