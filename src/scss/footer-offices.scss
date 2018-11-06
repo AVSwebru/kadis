@@ -1,0 +1,23 @@
+.footer-offices__heading {
+  margin-bottom: 14px;
+  color: #21292c;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.footer-offices__link {
+  @include m-no-link-decor();
+}
+
+.footer-offices__text {
+  color: #21292c;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: underline;
+}
+
+.footer-offices__icon {
+    margin-right: 8px;
+    fill: #b3b3b3;
+}

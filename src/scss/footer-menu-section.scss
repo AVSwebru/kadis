@@ -1,0 +1,38 @@
+.footer-menu-section {
+  // margin-right: 60px;
+  // &:last-child {
+  //   margin-right: 0;
+  // }
+}
+
+.footer-menu-section__title {
+  margin-bottom: 30px;
+  position: relative;
+  color: #21292c;
+  font-size: 18px;
+  font-weight: 400;
+  &::before {
+    content: '';
+    width: 5px;
+    height: 18px;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+    background-color: #009fc0;
+  }
+}
+
+.footer-menu-section__list {
+  @include m-reset-list();
+  li {
+    margin-bottom: 25px;
+  }
+  a {
+    color: #21292c;
+    font-size: 14px;
+    font-weight: 400;
+    &:hover {
+      color: #306e85;
+    }
+  }
+}

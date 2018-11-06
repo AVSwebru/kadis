@@ -1,0 +1,29 @@
+.home-news-slider {
+  margin-bottom: 50px;
+}
+
+.home-news-slider__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 170px;
+  transition: background-color 0.25s;
+  &:hover {
+    background-color: $theme-color-1;
+    transition: background-color 0.25s;
+    svg {
+      color: #fff;
+    }
+  }
+}
+
+.home-news-slider__prev {
+  left: -90px;
+}
+
+.home-news-slider__next {
+  right: -90px;
+}

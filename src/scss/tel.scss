@@ -1,0 +1,28 @@
+.tel {
+  display: inline-block;
+  margin-right: 85px;
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  @include m-no-link-decor;
+  &:hover {
+    color: #21292c;
+  }
+  &_place_header {
+    .tel__icon {
+      margin-right: 9px;
+    }
+  }
+  &_place_footer {
+    .tel__icon {
+      margin-right: 25px;
+    }
+  }
+}
+
+.tel__icon {
+  fill: #adadad;
+}

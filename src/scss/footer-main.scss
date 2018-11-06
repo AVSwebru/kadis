@@ -1,0 +1,33 @@
+.footer-main {
+  padding-top: 35px;
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+
+.footer-main__wrapper {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.footer-main__contacts {
+  margin-bottom: 55px;
+}
+
+.footer-main__tel {
+  margin-bottom: 25px;
+}
+
+.footer-main__time {
+  margin-bottom: 25px;
+}
+
+.footer-main__leftside {
+  // margin-right: 110px;
+}
+
+.footer-main__rightside {
+    // display: flex;
+    // align-items: flex-start;
+    // justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.time {
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 15px;
+  line-height: 1;
+  &_place_header {
+    padding-right: 67px;
+    border-right: 1px solid #cacaca;
+    .time__icon {
+      margin-right: 9px;
+    }
+  }
+  &_place_footer {
+    .time__icon {
+      margin-right: 25px;
+    }
+  }
+}
+
+.time__icon {
+  fill: #b3b3b3;
+}

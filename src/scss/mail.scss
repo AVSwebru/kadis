@@ -1,0 +1,26 @@
+.mail {
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 15px;
+  line-height: 1;
+  @include m-no-link-decor;
+  &:hover {
+    color: #21292c;
+  }
+  &_place_header {
+    padding-right: 67px;
+    border-right: 1px solid #cacaca;
+    .mail__icon {
+      margin-right: 9px;
+    }
+  }
+  &_place_footer {
+    .mail__icon {
+      margin-right: 25px;
+    }
+  }
+}
+
+.mail__icon {
+  fill: #b3b3b3;
+}

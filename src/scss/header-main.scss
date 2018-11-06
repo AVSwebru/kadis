@@ -21,20 +21,6 @@
 
 .header-main__mail {
   margin-right: 50px;
-  padding-right: 67px;
-  border-right: 1px solid #cacaca;
-  white-space: nowrap;
-  color: #21292c;
-  font-size: 15px;
-  line-height: 1;
-  @include m-no-link-decor;
-  &:hover {
-    color: #21292c;
-  }
-}
-
-.header-main__mail-icon {
-  margin-right: 11px;
 }
 
 .header-main__rightside {
@@ -45,35 +31,4 @@
 
 .header-main__time {
   margin-right: 50px;
-  padding-right: 67px;
-  border-right: 1px solid #cacaca;
-  white-space: nowrap;
-  color: #21292c;
-  font-size: 15px;
-  line-height: 1;
-}
-
-.header-main__time-icon {
-  margin-right: 11px;
-}
-
-.header-main__tel {
-  margin-right: 85px;
-  white-space: nowrap;
-  color: #21292c;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: -0.5px;
-  line-height: 1;
-  @include m-no-link-decor;
-  &:hover {
-    color: #21292c;
-  }
-}
-
-.header-main__tel-icon {
-  margin-right: 9px;
-  color: #21292c;
-  font-size: 22px;
-  font-weight: 600;
 }

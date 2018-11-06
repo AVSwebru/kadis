@@ -1,0 +1,14 @@
+.footer-short-menu {
+  @include m-reset-list;
+  margin-bottom: 60px;
+  li {
+    margin-bottom: 25px;
+  }
+  a {
+    color: #21292c;
+    font-size: 14px;
+    &:hover {
+      color: #306e85;
+    }
+  }
+}

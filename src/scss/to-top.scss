@@ -1,0 +1,24 @@
+.to-top {
+  width: 120px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: -35px;
+  transform: translateY(-50%);
+  border: 1px solid #bababa;
+  background-color: #dedede;
+  transition: background-color 0.25s;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #21292c;
+  font-size: 12px;
+  font-weight: 600;
+  @include m-no-link-decor();
+  &:hover {
+    background-color: #fff;
+    transition: background-color 0.25s;
+    color: #21292c;
+  }
+}
