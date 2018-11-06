@@ -1,0 +1,38 @@
+.nav-toggler {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  @include m-reset-btn();
+  margin-top: 16px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 1;
+  &.is-active {
+    .nav-toggler__more {
+      display: none;
+    }
+    .nav-toggler__close {
+      display: block;
+    }
+  }
+  @media (max-width: $breakpoint-large) {
+    display: flex;
+  }
+}
+
+.nav-toggler__more {
+  & svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.nav-toggler__close {
+  display: none;
+  & svg {
+    width: 28px;
+    height: 28px;
+  }
+}

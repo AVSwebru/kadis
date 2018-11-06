@@ -42,5 +42,16 @@ $tab-item-padding-vertical: 15px;
   border-bottom: 4px solid $theme-color-1;
 }
 
+//container
+@media (max-width: $breakpoint-medium) {
+  .uk-container-large {
+    padding: 0 !important;
+  }
+  .uk-container .uk-container {
+    padding: 0 30px !important;
+  }
+
+}
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

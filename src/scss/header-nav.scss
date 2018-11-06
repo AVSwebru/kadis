@@ -2,17 +2,39 @@
   background-color: $theme-color-1;
 }
 
+.header-nav__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .header-nav__list {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: stretch;
   flex-wrap: wrap;
   @include m-reset-list;
+  @media (max-width: $breakpoint-large) {
+    width: auto;
+    height: 68px;
+    overflow: hidden;
+    &.is-active {
+      height: auto;
+    }
+  }
+  li {
+    flex-grow: 1;
+    @media (max-width: $breakpoint-large) {
+      flex-grow: 0;
+    }
+  }
 }
 
 .header-nav__link {
   display: block;
   padding: 22px 18px;
+  text-align: center;
   white-space: nowrap;
   color: #fff;
   font-weight: 600;

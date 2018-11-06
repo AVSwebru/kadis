@@ -24,5 +24,7 @@
 }
 
 .header-info__discount-detailed {
-
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
 }
