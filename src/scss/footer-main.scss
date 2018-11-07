@@ -23,7 +23,11 @@
 }
 
 .footer-main__leftside {
-  // margin-right: 110px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: $breakpoint-medium) {
+    flex-direction: row;
+  }
 }
 
 .footer-main__rightside {

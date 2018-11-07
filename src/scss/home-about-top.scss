@@ -5,28 +5,45 @@
 }
 
 .home-about-top__branches {
-  margin-right: 50px;
+  margin-right: 80px;
   white-space: nowrap;
+  @media (max-width: $breakpoint-medium) {
+    margin-right: 35px;
+  }
 }
 
 .home-about-top__left-branch,
 .home-about-top__right-branch {
   width: 130px;
   height: 168px;
+  @media (max-width: $breakpoint-medium) {
+    width: 80px;
+    height: 125px;
+  }
 }
 
 .home-about-top__left-branch {
   transform: scaleX(-1);
+  margin-left: 30px;
 }
 
 .home-about-top__list {
   @include m-reset-list();
-  margin-top: 28px;
-  li {
-    margin-bottom: 15px;
-    color: #21292c;
-    font-family: $font-decor;
-    font-size: 42px;
-    font-weight: 600;
+  margin-top: 38px;
+  @media (max-width: $breakpoint-medium) {
+    margin-top: 0;
+  }
+}
+
+.home-about-top__list li {
+  margin-bottom: 26px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 10px;
+    font-size: 30px;
   }
 }

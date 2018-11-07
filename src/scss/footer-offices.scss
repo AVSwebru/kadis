@@ -8,6 +8,7 @@
 
 .footer-offices__link {
   @include m-no-link-decor();
+  white-space: nowrap;
 }
 
 .footer-offices__text {

@@ -50,8 +50,17 @@ $tab-item-padding-vertical: 10px;
   .uk-container .uk-container {
     padding: 0 30px !important;
   }
-
 }
+
+@media (max-width: $breakpoint-xlarge) {
+  .uk-container .uk-container {
+    padding: 0 20px !important;
+  }
+}
+
+//grid
+$grid-large-gutter-horizontal: 30px;
+
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

@@ -1,3 +1,18 @@
 .home-news {
   padding: 90px 0;
+  @media (max-width: $breakpoint-medium) {
+    padding: 65px 0 35px;
+  }
+  @media (max-width: $breakpoint-small) {
+    padding: 50px 0 35px;
+  }
+}
+
+.home-news__default-btn {
+  @media (max-width: $breakpoint-medium) {
+    margin-left: 50px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-left: 0;
+  }
 }

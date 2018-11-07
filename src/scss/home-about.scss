@@ -1,6 +1,9 @@
 .home-about {
   padding: 50px 0 90px;
   background-color: #fff;
+  @media (max-width: $breakpoint-medium) {
+    padding: 70px 0 50px;
+  }
 }
 
 .home-about__wrapper {
@@ -10,14 +13,21 @@
   flex-wrap: wrap;
   margin-top: 70px;
   margin-bottom: 100px;
+  @media (max-width: $breakpoint-medium) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .home-about__statistics {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   flex-basis: 70%;
   position: relative;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 40px;
+  }
 }
 
 .home-about__statistics-line {
@@ -34,6 +44,12 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  @media (max-width: $breakpoint-medium) {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-left: 16px;
+  }
 }
 
 .home-about__offices-text {
@@ -43,4 +59,9 @@
   font-size: 22px;
   font-weight: 600;
   line-height: 1.1;
+  @media (max-width: $breakpoint-medium) {
+    margin-right: 18px;
+    width: 200px;
+    margin-bottom: 0;
+  }
 }

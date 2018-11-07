@@ -24,7 +24,10 @@
   display: block;
   height: 300px;
   margin-bottom: 50px;
-  border: 12px solid #ffffff;
+  border: 12px solid #fff;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 30px;
+  }
 }
 
 .home-news-item__date {
