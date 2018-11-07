@@ -45,7 +45,7 @@
               Воронеж, Курск
             </div>
             <a class="header-info__discount" href="#">
-              Акции! <span class="header-info__discount-detailed">Скидка 30% на составление годового отчета</span>
+              Акция! <span class="header-info__discount-detailed">Скидка 30% на составление годового отчета</span>
             </a>
             <form class="header-search">
               <div class="uk-inline">
@@ -128,7 +128,7 @@
       </nav>
     </header>
     <main>
-    <section class="home-intro">
+    <div class="home-intro">
       <div class="uk-container uk-container-small">
         <h1 class="home-intro__title">Бухгалтерские услуги и аудит</h1>
         <div class="home-intro__text">20 лет на рынке бухгалтерского<br>
@@ -140,7 +140,7 @@
           </a>
         </div>
       </div>
-    </section>
+    </div>
     <section class="home-services home-section home-section_dark">
       <div class="uk-container uk-container-small">
         <div class="home-section__overhead">
@@ -149,116 +149,117 @@
         <h2 class="home-section__title">
           Что мы делаем
         </h2>
-        <div class="home-services__grid">
-          <div>
-            <section class="home-service-item home-service-item_first">
-              <h3 class="home-service-item__title">
-                Бухгалтерский аутсорсинг
-              </h3>
-              <ul class="home-service-item__list">
-                <li>Бухгалтерский и налоговый учет</li>
-                <li>Кадровый учет и делопроизводство</li>
-                <li> Составление и сдача отчетности</li>
-                <li>Прохождение проверок налоговой, ПФР, ФСС, трудовая инспекция</li>
-                <li>Налоговая оптимизация</li>
-                <li>Консультирование</li>
-              </ul>
-            </section>
-          </div>
-          <div>
-            <div class="home-service-tabbed-about">
-              <ul data-uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium" data-uk-tab>
-                <li>
-                  <a href="#">Аутсорсинг полный</a>
-                </li>
-                <li>
-                  <a href="#">Частичный</a>
-                </li>
-                <li>
-                  <a href="#">Экспертная поддержка</a>
-                </li>
-              </ul>
-              <ul class="uk-switcher">
-                <li>
-                  <section class="home-service-about">
-                    <div class="home-service-about__image uk-cover-container">
-                      <img src="img/home-services-1.jpg" alt="" data-uk-cover>
-                    </div>
-                    <h3 class="home-service-about__title">
-                      Вторая вкладка!
-                    </h3>
-                    <ul class="home-service-about__list">
-                      <li>первый пункт</li>
-                      <li>второй пункт</li>
-                      <li>третий пункт</li>
-                    </ul>
-                  </section>
-                </li>
-                <li>
-                  <section class="home-service-about">
-                    <div class="home-service-about__image uk-cover-container">
-                      <img src="img/home-services-2.jpg" alt="" data-uk-cover>
-                    </div>
-                    <h3 class="home-service-about__title">
-                      Третья вкладка!
-                    </h3>
-                    <ul class="home-service-about__list">
-                      <li>первый пункт списка</li>
-                      <li>второй пункт списка</li>
-                      <li>третий пункт списка</li>
-                    </ul>
-                  </section>
-                </li>
-                <li>
-                  <section class="home-service-about">
-                    <div class="home-service-about__image uk-cover-container">
-                      <img src="img/home-services-3.jpg" alt="" data-uk-cover>
-                    </div>
-                    <h3 class="home-service-about__title">
-                      Вам идеально подходит аутсорсинг!
-                    </h3>
-                    <ul class="home-service-about__list">
-                      <li>аутсорсинг дешевле</li>
-                      <li>аутсорсинг надежнее</li>
-                      <li>дополнительные выгоды</li>
-                    </ul>
-                  </section>
-                </li>
-              </ul>
+        <div class="home-services__pool">
+          <div class="home-services__row">
+            <div>
+              <section class="home-service-item home-service-item_first">
+                <h3 class="home-service-item__title">
+                  Бухгалтерский аутсорсинг
+                </h3>
+                <ul class="home-service-item__list">
+                  <li>Бухгалтерский и налоговый учет</li>
+                  <li>Кадровый учет и делопроизводство</li>
+                  <li> Составление и сдача отчетности</li>
+                  <li>Прохождение проверок налоговой, ПФР, ФСС, трудовая инспекция</li>
+                  <li>Налоговая оптимизация</li>
+                  <li>Консультирование</li>
+                </ul>
+              </section>
+            </div>
+            <div>
+              <div class="home-service-tabbed-about">
+                <ul class="home-service-tabbed-about__tab" data-uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium" data-uk-tab>
+                  <li>
+                    <a href="#">Аутсорсинг полный</a>
+                  </li>
+                  <li>
+                    <a href="#">Частичный</a>
+                  </li>
+                  <li>
+                    <a href="#">Экспертная поддержка</a>
+                  </li>
+                </ul>
+                <ul class="uk-switcher">
+                  <li>
+                    <section class="home-service-about">
+                      <div class="home-service-about__image uk-cover-container">
+                        <img src="img/home-services-1.jpg" alt="" data-uk-cover>
+                      </div>
+                      <h3 class="home-service-about__title">
+                        Вторая вкладка!
+                      </h3>
+                      <ul class="home-service-about__list">
+                        <li>первый пункт</li>
+                        <li>второй пункт</li>
+                        <li>третий пункт</li>
+                      </ul>
+                    </section>
+                  </li>
+                  <li>
+                    <section class="home-service-about">
+                      <div class="home-service-about__image uk-cover-container">
+                        <img src="img/home-services-2.jpg" alt="" data-uk-cover>
+                      </div>
+                      <h3 class="home-service-about__title">
+                        Третья вкладка!
+                      </h3>
+                      <ul class="home-service-about__list">
+                        <li>первый пункт списка</li>
+                        <li>второй пункт списка</li>
+                        <li>третий пункт списка</li>
+                      </ul>
+                    </section>
+                  </li>
+                  <li>
+                    <section class="home-service-about">
+                      <div class="home-service-about__image uk-cover-container">
+                        <img src="img/home-services-3.jpg" alt="" data-uk-cover>
+                      </div>
+                      <h3 class="home-service-about__title">
+                        Вам идеально подходит аутсорсинг!
+                      </h3>
+                      <ul class="home-service-about__list">
+                        <li>аутсорсинг дешевле</li>
+                        <li>аутсорсинг надежнее</li>
+                        <li>дополнительные выгоды</li>
+                      </ul>
+                    </section>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="home-services__grid">
-          <div>
-            <section class="home-service-about">
-              <div class="home-service-about__image uk-cover-container">
-                <img src="img/home-services-4.jpg" alt="" data-uk-cover>
-              </div>
-              <h3 class="home-service-about__title">
-                Вам идеально подходит аутсорсинг!
-              </h3>
-              <ul class="home-service-about__list">
-                <li>аутсорсинг дешевле</li>
-                <li>аутсорсинг надежнее</li>
-                <li>дополнительные выгоды</li>
-              </ul>
-            </section>
+          <div class="home-services__row">
+            <div>
+              <section class="home-service-about">
+                <div class="home-service-about__image uk-cover-container">
+                  <img src="img/home-services-4.jpg" alt="" data-uk-cover>
+                </div>
+                <h3 class="home-service-about__title">
+                  Вам идеально подходит аутсорсинг!
+                </h3>
+                <ul class="home-service-about__list">
+                  <li>аутсорсинг дешевле</li>
+                  <li>аутсорсинг надежнее</li>
+                  <li>дополнительные выгоды</li>
+                </ul>
+              </section>
+            </div>
+            <div>
+              <section class="home-service-item home-service-item_second">
+                <h3 class="home-service-item__title">
+                  Аудиторские услуги
+                </h3>
+                <ul class="home-service-item__list">
+                  <li>Обязательный аудит</li>
+                  <li>Инициативный аудит</li>
+                  <li>Экспресс-аудит по налогам</li>
+                  <li>Аудиторское сопровождение главного бухгалтера </li>
+                </ul>
+              </section>
+            </div>
           </div>
-          <div>
-            <section class="home-service-item home-service-item_second">
-              <h3 class="home-service-item__title">
-                Аудиторские услуги
-              </h3>
-              <ul class="home-service-item__list">
-                <li>Обязательный аудит</li>
-                <li>Инициативный аудит</li>
-                <li>Экспресс-аудит по налогам</li>
-                <li>Аудиторское сопровождение главного бухгалтера </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-        <div class="home-services__grid">
+          <div class="home-services__row">
           <div>
             <section class="home-service-item home-service-item_third">
               <h3 class="home-service-item__title">
@@ -291,6 +292,7 @@
             </section>
           </div>
         </div>
+        </div>
       </div>
     </section>
     <section class="home-about home-section home-section_dark">
@@ -302,8 +304,8 @@
           Как мы работаем
         </h2>
         <div class="home-section__desc">
-          «КАДиС» входит в число крупных компаний
-          на рынке бухгалтерского аутсорсинга
+          «КАДиС» входит в число крупных компаний<br>
+          на рынке бухгалтерского аутсорсинга<br>
           и консалтинга России.
         </div>
         <div class="home-about__wrapper">
@@ -450,7 +452,6 @@
                     </a>
                   </li>
               </ul>
-
             </div>
             <a class="home-news-slider__arrow home-news-slider__prev" href="#" data-uk-slider-item="previous" data-uk-icon="arrow-left"></a>
             <a class="home-news-slider__arrow home-news-slider__next" href="#" data-uk-slider-item="next" data-uk-icon="arrow-right"></a>

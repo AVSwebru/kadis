@@ -1,10 +1,11 @@
 .home-about-top {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .home-about-top__branches {
-  margin-right: 70px;
+  margin-right: 50px;
   white-space: nowrap;
 }
 
@@ -18,14 +19,14 @@
   transform: scaleX(-1);
 }
 
-.home-about-top__list{
+.home-about-top__list {
   @include m-reset-list();
-  margin: 25px 0;
+  margin-top: 28px;
   li {
     margin-bottom: 15px;
     color: #21292c;
     font-family: $font-decor;
-    font-size: 38px;
+    font-size: 42px;
     font-weight: 600;
   }
 }

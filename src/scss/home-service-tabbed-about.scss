@@ -1,0 +1,8 @@
+.home-service-tabbed-about__tab {
+  @media (max-width: $breakpoint-medium) {
+    li {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+}

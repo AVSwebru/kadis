@@ -1,14 +1,10 @@
-.home-service-about {
-
-}
-
 .home-service-about__image {
-  height: 220px;
-  margin-bottom: 40px;
+  height: 225px;
+  margin-bottom: 35px;
 }
 
 .home-service-about__title {
-  margin-bottom: 20px;
+  margin: 0 0 15px 0;
   color: #111;
   font-size: 20px;
   font-weight: 600;
@@ -18,7 +14,7 @@
   @include m-reset-list;
   margin-left: 13px;
   li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left: 27px;
     position: relative;
     color: #111;

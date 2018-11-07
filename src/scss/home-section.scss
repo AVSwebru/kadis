@@ -1,5 +1,4 @@
 .home-section {
-  padding-top: 90px;
   &_dark {
     .home-section__overhead {
       color: #474a4b;
@@ -25,8 +24,7 @@
 }
 
 .home-section__overhead {
-  margin-bottom: 40px;
-  color: #798184;
+  margin-bottom: 20px;
   font-size: 12px;
   font-weight: 600;
   line-height: 1;
@@ -34,14 +32,13 @@
 }
 
 .home-section__title {
-  margin-bottom: 60px;
-
+  margin: 0 0 15px 0;
   font-family: $font-decor;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 600;
 }
 
 .home-section__desc {
-  max-width: 320px;
   font-size: 15px;
+  line-height: 1.3;
 }

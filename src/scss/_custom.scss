@@ -26,7 +26,7 @@ $search-default-width: 200px;
 }
 
 //tab
-$tab-item-padding-vertical: 15px;
+$tab-item-padding-vertical: 10px;
 @mixin hook-tab() {
   border-bottom: none;
   & > * {
@@ -43,7 +43,7 @@ $tab-item-padding-vertical: 15px;
 }
 
 //container
-@media (max-width: $breakpoint-medium) {
+@media (max-width: $breakpoint-xlarge) {
   .uk-container-large {
     padding: 0 !important;
   }
