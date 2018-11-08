@@ -1,6 +1,5 @@
 .tel {
   display: inline-block;
-  margin-right: 85px;
   white-space: nowrap;
   color: #21292c;
   font-size: 22px;
@@ -19,6 +18,9 @@
   &_place_footer {
     .tel__icon {
       margin-right: 25px;
+      @media (max-width: $breakpoint-medium) {
+          margin-right: 15px;
+      }
     }
   }
 }

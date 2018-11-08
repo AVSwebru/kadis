@@ -11,15 +11,25 @@
   font-size: 54px;
   font-weight: 700;
   line-height: 1;
+  @media (max-width: $breakpoint-small) {
+    font-size: 36px;
+  }
 }
 
 .home-intro__text {
-  margin-bottom: 230px;
+  margin-bottom: 240px;
   color: #fff;
   font-family: $font-decor;
   font-size: 38px;
   font-weight: 700;
   line-height: 1.1;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 280px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 80px;
+    font-size: 24px;
+  }
 }
 
 .home-intro__buttons {
@@ -32,6 +42,7 @@
 }
 
 .home-intro__link {
+  white-space: nowrap;
   color: #fff;
   font-size: 12px;
   font-weight: 600;

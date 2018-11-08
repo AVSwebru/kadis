@@ -1,3 +1,13 @@
+.footer-offices {
+  margin-top: 55px;
+  @media (max-width: $breakpoint-medium) {
+    margin-top: 0;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: 40px;
+  }
+}
+
 .footer-offices__heading {
   margin-bottom: 14px;
   color: #21292c;

@@ -1,11 +1,21 @@
 .callback-form {
   margin-top: 60px;
+  @media (max-width: $breakpoint-medium) {
+    margin-top: 35px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: 15px;
+  }
 }
 
 .callback-form__row {
   display: flex;
   align-items: flex-start;
   margin-bottom: 35px;
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
 }
 
 .callback-form__label {
@@ -15,6 +25,12 @@
   color: #fff;
   font-size: 14px;
   font-weight: 600;
+  @media (max-width: $breakpoint-small) {
+    width: auto;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
 
 .callback-form__input {
@@ -27,6 +43,9 @@
   &:focus {
     box-shadow: 0 0 5px 1px rgba(123, 253, 255, 0.71);
     border: 1px solid #89e2ff;
+  }
+  @media (max-width: $breakpoint-small) {
+    width: 280px;
   }
 }
 
@@ -42,18 +61,27 @@
     box-shadow: 0 0 5px 1px rgba(123, 253, 255, 0.71);
     border: 1px solid #89e2ff;
   }
+  @media (max-width: $breakpoint-small) {
+    width: 280px;
+  }
 }
 
 .callback-form__submit {
   min-width: 164px;
   margin-bottom: 18px;
   margin-left: 110px;
+  @media (max-width: $breakpoint-small) {
+    margin-left: 0;
+  }
 }
 
 .callback-form__agreement {
   display: flex;
   align-items: flex-start;
   margin-left: 110px;
+  @media (max-width: $breakpoint-small) {
+    margin-left: 0;
+  }
 }
 
 .callback-form__agreement-checkbox {

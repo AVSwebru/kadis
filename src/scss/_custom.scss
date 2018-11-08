@@ -14,7 +14,6 @@ $global-medium-gutter: 15px;
 
 // 3. Your custom mixin overwrites.
 
-
 //search
 $search-default-width: 200px;
 
@@ -61,6 +60,16 @@ $tab-item-padding-vertical: 10px;
 //grid
 $grid-large-gutter-horizontal: 30px;
 
+//navbar
+$navbar-nav-item-color: #fff;
+$navbar-nav-item-hover-color: #fff;
+$navbar-dropdown-nav-item-color: #fff;
+$navbar-dropdown-nav-item-hover-color: #fff;
+$navbar-dropdown-padding: 0;
+
+@mixin hook-navbar() {
+  display: block;
+}
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

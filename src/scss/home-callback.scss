@@ -6,4 +6,7 @@
     padding: 70px 0 110px;
     background-position: 10% 50%;
   }
+  @media (max-width: $breakpoint-small) {
+    padding: 45px 0 65px;
+  }
 }

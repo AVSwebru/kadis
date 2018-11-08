@@ -1,0 +1,11 @@
+.call-btn {
+  display: none;
+  width: 36px;
+  height: 36px;
+  fill: #adadad;
+  @include m-reset-btn();
+  cursor: pointer;
+  @media (max-width: $breakpoint-small) {
+    display: block;
+  }
+}

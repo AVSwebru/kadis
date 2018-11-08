@@ -13,10 +13,17 @@
     .mail__icon {
       margin-right: 9px;
     }
+    @media (max-width: $breakpoint-large) {
+      padding-right: 0;
+      border-right: none;
+    }
   }
   &_place_footer {
     .mail__icon {
       margin-right: 25px;
+      @media (max-width: $breakpoint-medium) {
+        margin-right: 15px;
+      }
     }
   }
 }

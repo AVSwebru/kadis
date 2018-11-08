@@ -1,0 +1,23 @@
+.menu-btn {
+  display: none;
+  width: 30px;
+  height: 30px;
+  @include m-reset-btn();
+  background: none;
+  color: #adadad;
+  cursor: pointer;
+  @media (max-width: $breakpoint-small) {
+    display: block;
+  }
+}
+
+.menu-btn__menu-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-btn__close-icon svg {
+  width: 30px;
+  height: 30px;
+  color: #48b8dd;
+}

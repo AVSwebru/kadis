@@ -20,6 +20,9 @@
   @media (max-width: $breakpoint-large) {
     display: flex;
   }
+  @media (max-width: $breakpoint-small) {
+    display: none;
+  }
 }
 
 .nav-toggler__more {

@@ -11,24 +11,53 @@
 .header-main__logo {
   min-width: 150px;
   margin-right: 55px;
+  @media (max-width: $breakpoint-small) {
+    min-width: 130px;
+    margin-right: 0;
+  }
 }
 
 .header-main__leftside {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  @media (max-width: $breakpoint-large) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @media (max-width: $breakpoint-small) {
+    display: none;
+  }
 }
 
 .header-main__mail {
-  margin-right: 50px;
+  margin: 10px 50px 10px 0;
 }
 
 .header-main__rightside {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  @media (max-width: $breakpoint-large) {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  @media (max-width: $breakpoint-small) {
+    display: none;
+  }
 }
 
 .header-main__time {
-  margin-right: 50px;
+  margin: 10px 50px 10px 0;
+}
+
+.header-main__tel {
+  margin: 7px 85px 7px 0;
+  @media (max-width: $breakpoint-large) {
+    margin-right: 0;
+  }
+}
+
+.header-main__callback-btn {
+  margin: 7px 0;
 }

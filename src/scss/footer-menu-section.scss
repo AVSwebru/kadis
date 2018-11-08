@@ -23,9 +23,6 @@
 
 .footer-menu-section__list {
   @include m-reset-list();
-  @media (max-width: $breakpoint-medium) {
-    display: none;
-  }
 }
 
 .footer-menu-section__list li {

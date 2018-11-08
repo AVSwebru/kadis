@@ -17,6 +17,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 25px;
+  }
 }
 
 .home-about__statistics {
@@ -27,6 +30,10 @@
   position: relative;
   @media (max-width: $breakpoint-medium) {
     margin-bottom: 40px;
+  }
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -50,6 +57,12 @@
     width: auto;
     margin-left: 16px;
   }
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .home-about__offices-text {
@@ -60,8 +73,13 @@
   font-weight: 600;
   line-height: 1.1;
   @media (max-width: $breakpoint-medium) {
-    margin-right: 18px;
     width: 200px;
+    margin-right: 18px;
     margin-bottom: 0;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-right: 0;
+    margin-bottom: 15px;
+    text-align: center;
   }
 }

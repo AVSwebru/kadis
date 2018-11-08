@@ -21,11 +21,14 @@
   &:hover {
     background-color: $theme-color-1;
     transition: background-color 0.25s;
+    svg {
+      color: #fff;
+    }
   }
 }
 
 .home-news-slider__arrow svg {
-  color: #fff;
+  color: #9e9e9e;
   @media (max-width: $breakpoint-medium) {
     width: 35px;
     height: 35px;

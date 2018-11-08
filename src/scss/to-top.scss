@@ -21,4 +21,13 @@
     transition: background-color 0.25s;
     color: #21292c;
   }
+  @media (max-width: $breakpoint-medium) {
+    top: -60px;
+  }
+  @media (max-width: $breakpoint-small) {
+    top: auto;
+    right: 0;
+    bottom: 0;
+    transform: none;
+  }
 }
