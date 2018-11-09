@@ -7,12 +7,19 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.3px;
+  cursor: pointer;
   &:hover {
-    background-image: linear-gradient(to bottom, #1f9bc4, #48b8dd);
+    background-image: linear-gradient(to bottom, $theme-color-1, #48b8dd);
     color: #fff;
   }
   @media (max-width: $breakpoint-medium) {
     padding: 15px 25px;
+  }
+  @media (max-width: $breakpoint-small) {
+    color: $theme-color-1;
+    &:hover {
+      background-image: none;
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 .header-info {
   background-color: $bg-color-1;
   @media (max-width: $breakpoint-small) {
-    display: none;
+    height: 0;
   }
 }
 

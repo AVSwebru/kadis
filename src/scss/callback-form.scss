@@ -1,10 +1,13 @@
-.callback-form {
-  margin-top: 60px;
-  @media (max-width: $breakpoint-medium) {
-    margin-top: 35px;
-  }
+.callback-form__title {
+  margin-bottom: 80px;
+  color: #fff;
+  font-family: $font-decor;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
   @media (max-width: $breakpoint-small) {
-    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 36px;
   }
 }
 
@@ -45,7 +48,7 @@
     border: 1px solid #89e2ff;
   }
   @media (max-width: $breakpoint-small) {
-    width: 280px;
+    width: 100%;
   }
 }
 
@@ -69,7 +72,7 @@
 .callback-form__submit {
   min-width: 164px;
   margin-bottom: 18px;
-  margin-left: 110px;
+  margin-left: 115px;
   @media (max-width: $breakpoint-small) {
     margin-left: 0;
   }
@@ -78,7 +81,7 @@
 .callback-form__agreement {
   display: flex;
   align-items: flex-start;
-  margin-left: 110px;
+  margin-left: 115px;
   @media (max-width: $breakpoint-small) {
     margin-left: 0;
   }

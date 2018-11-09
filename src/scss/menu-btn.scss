@@ -6,6 +6,18 @@
   background: none;
   color: #adadad;
   cursor: pointer;
+  &.is-active {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+    .menu-btn__menu-icon {
+      display: none;
+    }
+    .menu-btn__close-icon {
+      display: block;
+    }
+  }
   @media (max-width: $breakpoint-small) {
     display: block;
   }
@@ -14,6 +26,10 @@
 .menu-btn__menu-icon svg {
   width: 30px;
   height: 30px;
+}
+
+.menu-btn__close-icon {
+  display: none;
 }
 
 .menu-btn__close-icon svg {

@@ -71,5 +71,10 @@ $navbar-dropdown-padding: 0;
   display: block;
 }
 
+//modal
+$modal-dialog-width: 820px;
+$modal-body-padding-horizontal: 0;
+$modal-body-padding-vertical: 0;
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

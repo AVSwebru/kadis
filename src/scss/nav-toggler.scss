@@ -5,10 +5,11 @@
   width: 35px;
   height: 35px;
   @include m-reset-btn();
-  margin-top: 16px;
+  margin-top: 13px;
   color: #fff;
   font-size: 25px;
   line-height: 1;
+  cursor: pointer;
   &.is-active {
     .nav-toggler__more {
       display: none;
@@ -25,17 +26,16 @@
   }
 }
 
-.nav-toggler__more {
-  & svg {
+.nav-toggler__more svg {
     width: 28px;
     height: 28px;
-  }
 }
 
 .nav-toggler__close {
   display: none;
-  & svg {
-    width: 28px;
-    height: 28px;
-  }
+}
+
+.nav-toggler__close svg {
+  width: 28px;
+  height: 28px;
 }

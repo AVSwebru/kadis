@@ -1,18 +1,25 @@
 .header-nav {
   background-color: $theme-color-1;
   @media (max-width: $breakpoint-small) {
-    width: 100%;
-    position: fixed;
-    top: 75px;
-    z-index: 5;
-    &::before {
-      content: '';
+    display: none;
+    min-height: calc(100vmax - 60px);
+    &.is-active {
+      display: block;
       width: 100%;
-      height: 75px;
+      height: calc(100vmax - 60px);
+      overflow-y: scroll;
       position: fixed;
-      top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.9);
+      top: 75px;
+      z-index: 5;
+      &::before {
+        content: '';
+        width: 100%;
+        height: 75px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+      }
     }
   }
 }
@@ -24,6 +31,7 @@
   @media (max-width: $breakpoint-small) {
     margin-left: -20px;
     margin-right: -20px;
+    padding-bottom: 50px;
   }
 }
 
@@ -36,7 +44,7 @@
   @include m-reset-list;
   @media (max-width: $breakpoint-large) {
     width: auto;
-    height: 68px;
+    height: 60px;
     overflow: hidden;
     &.is-active {
       height: auto;
@@ -66,6 +74,8 @@
 
 .header-nav__list > li > a {
   display: block;
+  height: 60px;
+  box-sizing: border-box;
   padding: 22px 18px;
   text-align: center;
   text-transform: none;
@@ -75,6 +85,7 @@
   background-color: $theme-color-1;
   transition: background-color 0.25s;
   font-size: 15px;
+  line-height: 1;
   @include m-no-link-decor;
   &:hover {
     background-color: darken($theme-color-1, 10%);
@@ -90,6 +101,9 @@
   margin-top: 0;
   padding: 10px 0;
   background-color: rgba(31, 154, 195, 0.96);
+  @media (max-width: $breakpoint-small) {
+    width: 100%;
+  }
 }
 
 .header-nav__inner-menu > ul > li > a {

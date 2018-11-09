@@ -1,0 +1,16 @@
+.close-btn {
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 11;
+  @media (max-width: $breakpoint-small) {
+    display: block;
+  }
+}
+
+.close-btn svg {
+  width: 30px;
+  height: 30px;
+  color: #48b8dd;
+}

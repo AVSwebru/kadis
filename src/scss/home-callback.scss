@@ -10,3 +10,13 @@
     padding: 45px 0 65px;
   }
 }
+
+.home-callback__callback-form {
+  margin-top: 60px;
+  @media (max-width: $breakpoint-medium) {
+    margin-top: 35px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: 15px;
+  }
+}
