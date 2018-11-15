@@ -1,4 +1,4 @@
-@import "custom";
+@import "theme";
 @import "animations";
 @import "mixins";
 @import "fonts";
@@ -18,8 +18,8 @@
 @import "home-statistics-item";
 @import "home-about-top";
 @import "home-news";
-@import "home-news-slider";
-@import "home-news-item";
+@import "article-slider";
+@import "article-item";
 @import "home-partners";
 @import "partners-slider";
 @import "home-callback";
@@ -42,3 +42,12 @@
 @import "header-search";
 @import "close-btn";
 @import "callback-modal";
+@import "breadcrumbs";
+@import "innerpage";
+@import "school";
+@import "courses";
+@import "course-category";
+@import "course-card";
+@import "course-btn";
+@import "quote";
+@import "articles";

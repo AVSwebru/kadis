@@ -1,0 +1,27 @@
+.innerpage__title {
+  margin-bottom: 40px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 55px;
+  font-weight: 600;
+  @media (max-width: $breakpoint-medium) {
+    font-size: 44px;
+  }
+}
+
+.innerpage__section {
+  padding: 100px 0;
+  @media (max-width: $breakpoint-medium) {
+    padding: 60px 0 90px;
+  }
+}
+
+.innerpage__section-title {
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 44px;
+  font-weight: 600;
+  @media (max-width: $breakpoint-small) {
+      font-size: 30px;
+  }
+}

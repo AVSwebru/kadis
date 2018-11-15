@@ -1,0 +1,20 @@
+.course-btn {
+  width: 142px;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #56bee0;
+  background-color: #fff;
+  text-align: center;
+  color: #21292c;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: background-color 0.25s;
+  cursor: pointer;
+  &:hover {
+    background-color: #48b8dd;
+    transition: background-color 0.25s;
+    color: #fff;
+  }
+}

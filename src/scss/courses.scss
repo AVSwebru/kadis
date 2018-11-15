@@ -1,0 +1,28 @@
+.courses {
+  background-color: #ebebeb;
+}
+
+.courses__legend {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 50%;
+  box-sizing: border-box;
+  color: #474a4b;
+  font-size: 14px;
+  font-weight: 400;
+  @media (max-width: $breakpoint-small) {
+    display: none;
+  }
+}
+
+.courses__legend-cost,
+.courses__legend-hours,
+.courses__legend-number {
+  width: 20%;
+  margin-right: 2%;
+  text-align: center;
+  @media (max-width: $breakpoint-medium) {
+    width: 29%;
+  }
+}
