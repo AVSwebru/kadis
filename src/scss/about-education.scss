@@ -1,0 +1,34 @@
+.about-education {
+  padding-bottom: 160px;
+}
+
+.about-education__title {
+  margin-bottom: 20px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-education__text {
+  margin-bottom: 90px;
+  color: #474a4b;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.about-education__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-education__item {
+  width: 325px;
+  padding-bottom: 30px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #ff9600;
+}

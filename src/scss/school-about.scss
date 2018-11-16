@@ -1,9 +1,9 @@
-.school {
+.school-about {
   padding-bottom: 100px;
   background-color: #fff;
 }
 
-.school__grid {
+.school-about__grid {
   display: grid;
   grid-template-columns: minmax(600px, 855px) 380px;
   grid-auto-rows: 230px;
@@ -40,11 +40,11 @@
   }
 }
 
-.school__video {
+.school-about__video {
   height: 100%;
 }
 
-.school__doc {
+.school-about__doc {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,10 +55,10 @@
   background-size: 100% 20px;
 }
 
-.school__doc-image {
+.school-about__doc-image {
   max-height: 100%;
 }
 
-.school__class {
+.school-about__class {
   height: 100%;
 }

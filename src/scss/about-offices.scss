@@ -1,0 +1,56 @@
+.about-offices {
+  margin-bottom: 190px;
+}
+
+.about-offices__title {
+  margin-bottom: 55px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.about-offices__grid {
+  display: grid;
+  grid-template-columns: 955px 380px;
+  grid-gap: 70px;
+}
+
+.about-offices__album {
+  display: grid;
+  grid-template-columns: repeat(2, 187px);
+  grid-auto-rows: 200px;
+  grid-gap: 5px;
+  margin-bottom: 80px;
+}
+
+.about-offices__album-photo {
+  height: 100%;
+}
+
+.about-offices__location {
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  @media (max-width: $breakpoint-medium) {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-left: 16px;
+  }
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.about-offices__location-text {
+  margin-bottom: 15px;
+  color: #21292c;
+  font-family: $font-decor;
+  font-size: 20px;
+  font-weight: 600;
+}

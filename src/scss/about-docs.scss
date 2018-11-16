@@ -1,0 +1,14 @@
+.about-docs {
+  background-color: #ebebeb;
+}
+
+.about-docs__list {
+  @include m-reset-list;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
