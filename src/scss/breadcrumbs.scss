@@ -1,8 +1,6 @@
 .breadcrumbs {
-  margin-top: 40px;
-  margin-bottom: 50px;
-  color: #798082;
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: underline;
+  margin: 40px 0 50px;
+  @media (max-width: $breakpoint-medium) {
+    margin: 25px 0;
+  }
 }

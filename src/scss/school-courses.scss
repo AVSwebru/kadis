@@ -1,8 +1,8 @@
-.courses {
+.school-courses {
   background-color: #ebebeb;
 }
 
-.courses__legend {
+.school-courses__legend {
   display: flex;
   width: 100%;
   margin-bottom: 20px;
@@ -11,14 +11,17 @@
   color: #474a4b;
   font-size: 14px;
   font-weight: 400;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 5px;
+  }
   @media (max-width: $breakpoint-small) {
     display: none;
   }
 }
 
-.courses__legend-cost,
-.courses__legend-hours,
-.courses__legend-number {
+.school-courses__legend-cost,
+.school-courses__legend-hours,
+.school-courses__legend-number {
   width: 20%;
   margin-right: 2%;
   text-align: center;

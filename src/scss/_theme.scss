@@ -76,5 +76,17 @@ $modal-dialog-width: 820px;
 $modal-body-padding-horizontal: 0;
 $modal-body-padding-vertical: 0;
 
+//breadcrumbs
+$breadcrumb-item-font-size: 14px;
+$breadcrumb-item-color: #798082;
+
+@mixin hook-breadcrumb-item() {
+  text-decoration: underline;
+}
+
+@mixin hook-breadcrumb-item-active() {
+  text-decoration: none;
+}
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

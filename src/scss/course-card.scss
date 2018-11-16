@@ -1,9 +1,15 @@
 .course-card {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  &:last-child {
+    margin-bottom: 0;
+  }
   @media (max-width: $breakpoint-medium) {
-    margin-bottom: 45px;
+    margin-bottom: 70px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 64px;
   }
 }
 
@@ -23,12 +29,15 @@
   font-size: 23px;
   font-weight: 600;
   text-decoration: underline;
-  line-height: 1.2;
+  line-height: 1.15;
   &:hover {
     color: #306e85;
   }
   @media (max-width: $breakpoint-medium) {
-    font-size: 18px;
+    line-height: 1.1;
+  }
+  @media (max-width: $breakpoint-small) {
+    font-size: 21px;
   }
 }
 
@@ -43,6 +52,9 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
+  @media (max-width: $breakpoint-medium) {
+    bottom: -35px;
+  }
 }
 
 .course-card__price,

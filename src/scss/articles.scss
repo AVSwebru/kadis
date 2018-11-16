@@ -1,5 +1,4 @@
 .articles {
-  padding: 134px 0 140px;
   background-color: #ebebeb;
 }
 
@@ -10,4 +9,10 @@
   font-size: 38px;
   font-weight: 600;
   line-height: 1;
+}
+
+.article__default-btn {
+  @media (max-width: $breakpoint-medium) {
+    margin-left: 50px;
+  }
 }
