@@ -48,5 +48,30 @@ import 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap';
 
   }
 
+  //Школа бухгалтеров
+  if (document.querySelector('.js-mission')) {
+
+    const missionTween = new TimelineMax();
+    missionTween
+      .from('.js-mission-content', 1, {opacity: 0, x: -500,  ease:
+Power2. easeInOut})
+      .from('.js-mission-title', 0.5, {opacity: 0, y: 100,  ease:
+      Power2. easeInOut})
+    .from('.js-mission-text', 0.5, {opacity: 0, y: 100,  ease:
+    Power2. easeInOut})
+    .fromTo('.js-mission-sign', 0.35, {scale: 0}, {scale: 1.5})
+    .to('.js-mission-sign', 0.25, {scale: 1})
+    .staggerFrom('.js-mission-info', 0.5, {opacity: 0, y: 100,  ease:
+    Power2. easeInOut}, 0.25)
+
+    const missionScene = new ScrollMagic.Scene({
+      triggerElement: '.js-mission',
+      reverse: false
+    })
+    .addTo(controller)
+    .setTween(missionTween);
+
+}
+
 });
 })();

@@ -1,26 +1,40 @@
 .about-education {
   padding-bottom: 160px;
+  @media (max-width: $breakpoint-medium) {
+    padding-bottom: 70px;
+  }
+  @media (max-width: $breakpoint-small) {
+    padding-bottom: 0;
+  }
 }
 
 .about-education__title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #21292c;
   font-family: $font-decor;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
 }
 
 .about-education__text {
-  margin-bottom: 90px;
+  max-width: 1000px;
+  margin-bottom: 83px;
   color: #474a4b;
   font-size: 15px;
   font-weight: 400;
+  line-height: 1.2;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 60px;
+  }
 }
 
 .about-education__items {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .about-education__item {
@@ -28,7 +42,20 @@
   padding-bottom: 30px;
   color: #21292c;
   font-family: $font-decor;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
+  line-height: 1.1;
   border-bottom: 2px solid #ff9600;
+  @media (max-width: $breakpoint-large) {
+    width: 300px;
+    font-size: 18px;
+  }
+  @media (max-width: $breakpoint-medium) {
+    width: 200px;
+  }
+  @media (max-width: $breakpoint-small) {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 55px;
+  }
 }

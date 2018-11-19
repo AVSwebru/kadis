@@ -1,21 +1,25 @@
-.team-item {
-
-}
-
 .team-item__image {
   height: 295px;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
+  @media (max-width: $breakpoint-small) {
+    height: 136px;
+  }
 }
 
 .team-item__name {
-  margin-bottom: 6px;
   color: #474a4b;
   font-size: 16px;
   font-weight: 700;
+  @media (max-width: $breakpoint-small) {
+    font-size: 14px;
+  }
 }
 
 .team-item__position {
   color: #474a4b;
   font-size: 15px;
   font-weight: 400;
+  @media (max-width: $breakpoint-small) {
+    font-size: 14px;
+  }
 }

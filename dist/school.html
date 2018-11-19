@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" hidden>
+  <svg hidden>
     <symbol id="check">
       <defs>
         <path id="a" d="M990.922 1333.939l-10.537 10.978a.23.23 0 0 1-.335 0l-5.983-6.234a.253.253 0 0 1 0-.35l1.454-1.514a.23.23 0 0 1 .335 0l4.362 4.544 8.916-9.289a.23.23 0 0 1 .335 0l1.453 1.514a.255.255 0 0 1 0 .35z"/>
@@ -155,7 +155,7 @@
       </nav>
     </header>
     <main class="innerpage">
-      <div class="school">
+      <div class="school-about">
         <div class="uk-container uk-container-small">
           <ul class="breadcrumbs uk-breadcrumb">
             <li><a href="#">Главная</a></li>
@@ -164,30 +164,41 @@
           <h1 class="innerpage__title">
             Школа бухгалтеров
           </h1>
-          <div class="school__grid">
+          <div class="school-about__grid">
             <div>
-              <div class="school__video uk-cover-container">
+              <div class="school-about__video uk-cover-container">
                 <img data-uk-cover src="img/school-album-1.jpg?7916356fc3b0a010d7ed41b189c632ae" alt="">
               </div>
             </div>
             <div>
-              <div class="school__doc">
-                <img src="img/school-album-2.jpg?986beb880a79f8b5713df67ecc029ddd" alt="">
+              <div class="school-about__doc">
+                <img class="school-about__doc-image" src="img/school-album-2.jpg?986beb880a79f8b5713df67ecc029ddd" alt="">
               </div>
             </div>
             <div>
-              <div class="school__class uk-cover-container">
+              <div class="school-about__class uk-cover-container">
                 <img data-uk-cover src="img/school-album-3.jpg?b0c061382a434b1eb899ecfe8f9859ff" alt="">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section class="courses innerpage-section">
+      <section class="school-courses innerpage__section">
         <div class="uk-container uk-container-small">
-          <h2 class="innerpage-section__title">
+          <h2 class="innerpage__section-title">
             Запись на курсы
           </h2>
+          <div class="school-courses__legend">
+            <div class="school-courses__legend-cost">
+              Стоимость
+            </div>
+            <div class="school-courses__legend-hours">
+              Часы
+            </div>
+            <div class="school-courses__legend-number">
+              Кол-во занятий
+            </div>
+          </div>
           <section class="course-category">
             <h3 class="course-category__title">Курсы бухгалтерского учета</h3>
             <div class="course-card">
@@ -200,7 +211,7 @@
                 <div class="course-card__mark">Ближайшие</div>
               </div>
               <div class="course-card__price">
-                16 000
+                16 000 ₽
               </div>
               <div class="course-card__hours">
                 90
@@ -208,9 +219,11 @@
               <div class="course-card__count">
                 36
               </div>
-              <button class="course-btn" type="button">
-                Записаться
-              </button>
+              <div class="course-card__order">
+                <button class="course-btn" type="button">
+                  Записаться
+                </button>
+              </div>
             </div>
             <div class="course-card">
               <div class="course-card__heading">
@@ -221,7 +234,7 @@
                 </a>
               </div>
               <div class="course-card__price">
-                12 000
+                12 000 ₽
               </div>
               <div class="course-card__hours">
                 40
@@ -229,9 +242,11 @@
               <div class="course-card__count">
                 16
               </div>
-              <button class="course-btn" type="button">
-                Записаться
-              </button>
+              <div class="course-card__order">
+                <button class="course-btn" type="button">
+                  Записаться
+                </button>
+              </div>
             </div>
           </section>
           <section class="course-category">
@@ -246,7 +261,7 @@
                 <div class="course-card__mark">Ближайшие</div>
               </div>
               <div class="course-card__price">
-                16 000
+                16 000 ₽
               </div>
               <div class="course-card__hours">
                 90
@@ -254,9 +269,11 @@
               <div class="course-card__count">
                 36
               </div>
-              <button class="course-btn" type="button">
-                Записаться
-              </button>
+              <div class="course-card__order">
+                <button class="course-btn" type="button">
+                  Записаться
+                </button>
+              </div>
             </div>
             <div class="course-card">
               <div class="course-card__heading">
@@ -267,7 +284,7 @@
                 </a>
               </div>
               <div class="course-card__price">
-                12 000
+                12 000 ₽
               </div>
               <div class="course-card__hours">
                 40
@@ -275,9 +292,11 @@
               <div class="course-card__count">
                 16
               </div>
-              <button class="course-btn" type="button">
-                Записаться
-              </button>
+              <div class="course-card__order">
+                <button class="course-btn" type="button">
+                  Записаться
+                </button>
+              </div>
             </div>
           </section>
           <section class="course-category">
@@ -292,7 +311,7 @@
                 <div class="course-card__mark">Ближайшие</div>
               </div>
               <div class="course-card__price">
-                16 000
+                16 000 ₽
               </div>
               <div class="course-card__hours">
                 90
@@ -300,9 +319,11 @@
               <div class="course-card__count">
                 36
               </div>
-              <button class="course-btn" type="button">
-                Записаться
-              </button>
+              <div class="course-card__order">
+                <button class="course-btn" type="button">
+                  Записаться
+                </button>
+              </div>
             </div>
             <div class="course-card">
               <div class="course-card__heading">
@@ -313,7 +334,7 @@
                 </a>
               </div>
               <div class="course-card__price">
-                12 000
+                12 000 ₽
               </div>
               <div class="course-card__hours">
                 40
@@ -321,42 +342,131 @@
               <div class="course-card__count">
                 16
               </div>
-              <button class="course-btn" type="button">
-                Записаться
-              </button>
+              <div class="course-card__order">
+                <button class="course-btn" type="button">
+                  Записаться
+                </button>
+              </div>
             </div>
           </section>
         </div>
       </section>
-      <section class="quote innerpage-section">
+      <section class="school-quote js-quote">
         <div class="uk-container uk-container-small">
-          <blockquote class="quote__wrapper">
-            <cite class="quote__person">
+          <blockquote class="school-quote__wrapper">
+            <cite class="school-quote__cite">
               <figure>
-                <img class="quote__person-image" src="img/quote-person.jpg?c2c614f8eab37cc87a7a4a71d728323a" alt="">
+                <img class="school-quote__person-image js-person-image" width="454" height="376" src="img/school-quote-person.jpg?c2c614f8eab37cc87a7a4a71d728323a" alt="">
                 <figcaption>
-                  <div class="quote__person-name">
+                  <div class="school-quote__person-name js-person-name">
                     Лука Пачоли
                   </div>
-                  <div class="quote__person-position">
+                  <div class="school-quote__person-position js-person-position">
                     Основатель бухучета
                   </div>
                 </figcaption>
               </figure>
             </cite>
-            <div class="quote__block">
-              <div class="quote__quote-sign">
-                «
-              </div>
-              <div class="quote__text">
-                Законы служат опорой
-                бодрствующему, а не спящему
-              </div>
-              <div class="quote__quote-sign">
-                »
+            <div class="school-quote__saying">
+              <div class="school-quote__text">
+                <div class="school-quote__school-quote-sign school-quote__school-quote-sign_left js-left-quote">
+                  «
+                </div>
+                <span class="js-quote-text">
+                  Законы служат опорой
+                  бодрствующему, а не спящему
+                </span>
+                <div class="school-quote__school-quote-sign school-quote__school-quote-sign_right js-right-quote">
+                  »
+                </div>
               </div>
             </div>
           </blockquote>
+        </div>
+      </section>
+      <section class="articles innerpage__section">
+        <div class="uk-container uk-container-small">
+          <h2 class="innerpage__section-title">
+            Статьи
+          </h2>
+          <div class="article-slider" data-uk-slider>
+            <div class="uk-position-relative">
+              <div class="uk-slider-container">
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid uk-grid-large">
+                    <li>
+                      <a class="article-item" href="#">
+                        <span class="article-item__image uk-cover-container">
+                          <img src="img/article-item-1.jpg?ae12ab1841d2c85e3e2fe3eae39ad938" alt="" data-uk-cover>
+                        </span>
+                        <span class="article-item__date">
+                          12 ноября
+                        </span>
+                        <h3 class="article-item__title">
+                          Курсы делового английского языка
+                        </h3>
+                        <span class="article-item__anons">
+                          Занятия будут проводиться в малых группах, что позволит учителю уделить достаточно внимания каждому ученику. Специализированный английский для ...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="article-item" href="#">
+                        <span class="article-item__image uk-cover-container">
+                          <img src="img/article-item-2.jpg?9a8dbea7cbd548c05301eaced5216335" alt="" data-uk-cover>
+                        </span>
+                        <span class="article-item__date">
+                          11 ноября
+                        </span>
+                        <h3 class="article-item__title">
+                          Бухгалтерские курсы: как выбрать нужное
+                        </h3>
+                        <span class="article-item__anons">
+                          Занятия будут проводиться в малых группах, что позволит учителю уделить достаточно внимания каждому ученику. Специализированный английский для ...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="article-item" href="#">
+                        <span class="article-item__image uk-cover-container">
+                          <img src="img/article-item-3.jpg?36a7b3700f243bd0d959b5e160769fdf" alt="" data-uk-cover>
+                        </span>
+                        <span class="article-item__date">
+                          10 ноября
+                        </span>
+                        <h3 class="article-item__title">
+                          Когда необходимо бухгалтерское консультирование?
+                        </h3>
+                        <span class="article-item__anons">
+                          Занятия будут проводиться в малых группах, что позволит учителю уделить достаточно внимания каждому ученику. Специализированный английский для ...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="article-item" href="#">
+                        <span class="article-item__image uk-cover-container">
+                          <img src="img/article-item-2.jpg?9a8dbea7cbd548c05301eaced5216335" alt="" data-uk-cover>
+                        </span>
+                        <span class="article-item__date">
+                          12 ноября
+                        </span>
+                        <h3 class="article-item__title">
+                          Курсы делового английского языка
+                        </h3>
+                        <span class="article-item__anons">
+                          Занятия будут проводиться в малых группах, что позволит учителю уделить достаточно внимания каждому ученику. Специализированный английский для ...
+                        </span>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+              <a class="article-slider__arrow article-slider__prev" href="#" data-uk-slider-item="previous" data-uk-icon="arrow-left"></a>
+              <a class="article-slider__arrow article-slider__next" href="#" data-uk-slider-item="next" data-uk-icon="arrow-right"></a>
+            </div>
+          </div>
+          <a class="article__default-btn default-btn" href="#">
+            ко всем новостям
+            <span class="default-btn__arrow" data-uk-icon="arrow-right"></span>
+          </a>
         </div>
       </section>
     </main>

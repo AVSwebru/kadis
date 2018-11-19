@@ -1,27 +1,56 @@
 .about-offices {
-  margin-bottom: 190px;
+  margin-top: 170px;
+  margin-bottom: 90px;
+  @media (max-width: $breakpoint-medium) {
+    margin-top: 90px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: 60px;
+  }
 }
 
 .about-offices__title {
-  margin-bottom: 55px;
+  margin-bottom: 45px;
   color: #21292c;
   font-family: $font-decor;
-  font-size: 44px;
+  font-size: 55px;
   font-weight: 600;
+  @media (max-width: $breakpoint-medium) {
+    font-size: 30px;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 0;
+  }
 }
 
 .about-offices__grid {
   display: grid;
-  grid-template-columns: 955px 380px;
+  grid-template-columns: 2fr 1fr;
   grid-gap: 70px;
+  @media (max-width: $breakpoint-medium) {
+     grid-template-columns: auto;
+  }
+}
+
+.about-offices__map {
+  position: relative;
+  top: 46px;
 }
 
 .about-offices__album {
   display: grid;
   grid-template-columns: repeat(2, 187px);
   grid-auto-rows: 200px;
-  grid-gap: 5px;
-  margin-bottom: 80px;
+  grid-gap: 4px;
+  margin-bottom: 68px;
+  @media (max-width: $breakpoint-medium) {
+    grid-template-columns: repeat(auto-fit, 176px);
+    margin-bottom: 20px;
+  }
+  @media (max-width: $breakpoint-small) {
+    grid-template-columns: repeat(auto-fit, 138px);
+    grid-auto-rows: 145px;
+  }
 }
 
 .about-offices__album-photo {
@@ -42,6 +71,7 @@
   @media (max-width: $breakpoint-small) {
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 100%;
     margin-left: 0;
   }
@@ -51,6 +81,15 @@
   margin-bottom: 15px;
   color: #21292c;
   font-family: $font-decor;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
+  line-height: 1.1;
+  @media (max-width: $breakpoint-medium) {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 20px;
+  }
 }

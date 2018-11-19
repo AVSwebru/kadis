@@ -8,7 +8,13 @@
   align-items: center;
   flex-wrap: wrap;
   li {
-    margin-right: 20px;
+    margin-right: 18px;
     margin-bottom: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: $breakpoint-small) {
+    justify-content: center;
   }
 }

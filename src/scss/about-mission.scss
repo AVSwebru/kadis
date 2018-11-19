@@ -1,26 +1,56 @@
 .about-mission {
-  padding: 80px 110px 70px 0;
+  padding: 80px 115px 70px 0;
   box-sizing: border-box;
   background: #fff url('../img/bg-callback-modal.jpg') 0% 0% repeat-y;
   background-size: 100% 20px;
+  @media (max-width: $breakpoint-medium) {
+    padding: 40px 25px 70px 0;
+  }
+  @media (max-width: $breakpoint-small) {
+    padding: 45px 30px 45px 0;
+  }
 }
 
 .about-mission__content {
+  position: relative;
   padding: 90px 120px 90px 35px;
-  background: #fff url('../img/mission-pic.svg') 95% 5% no-repeat;
-  background-size: 46px 63px;
+  background-color: #fff;
+  @media (max-width: $breakpoint-medium) {
+    padding: 75px 90px 50px 25px;
+  }
+  @media (max-width: $breakpoint-small) {
+    padding: 70px 20px 45px 15px;
+  }
 }
 
 .about-mission__title {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #21292c;
   font-family: $font-decor;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 2px;
+    font-size: 30px;
+  }
+  @media (max-width: $breakpoint-small) {
+    font-size: 20px;
+  }
 }
 
 .about-mission__text {
   color: #474a4b;
   font-size: 15px;
   font-weight: 400;
+  @media (max-width: $breakpoint-small) {
+    line-height: 1.2;
+  }
+}
+
+.about-mission__sign {
+  position: absolute;
+  top: 17px;
+  right: 17px;
 }

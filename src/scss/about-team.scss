@@ -7,13 +7,29 @@
   grid-template-columns: 295px auto;
   grid-gap: 25px;
   margin-bottom: 110px;
+  @media (max-width: $breakpoint-medium) {
+    margin-bottom: 77px;
+  }
+  @media (max-width: $breakpoint-small) {
+    grid-template-columns: 280px;
+    margin-bottom: 43px;
+    & > div:nth-child(2) {
+      display: none;
+    }
+  }
 }
 
 .about-team__group {
   display: grid;
   grid-template-columns: repeat(auto-fit, 294px);
-  grid-gap: 33px;
+  grid-column-gap: 33px;
+  grid-row-gap: 50px;
   margin-bottom: 115px;
+  @media (max-width: $breakpoint-small) {
+    grid-template-columns: repeat(auto-fit, 136px);
+    grid-column-gap: 8px;
+    margin-bottom: 60px;
+  }
 }
 
 .about-team__director {
@@ -22,14 +38,10 @@
 
 .about-team__director-image {
   height: 440px;
+  margin-bottom: 17px;
 }
 
 .about-team__director-name {
-  margin-bottom: 20px;
-}
-
-.about-team__director-name {
-  margin-bottom: 8px;
   color: #474a4b;
   font-size: 16px;
   font-weight: 700;
