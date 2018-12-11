@@ -1,0 +1,77 @@
+.vacancy-card {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 45px 90px 51px 40px;
+  background-color: #fff;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @media (max-width: $breakpoint-medium) {
+    justify-content: space-between;
+    padding: 30px 30px 50px 30px;
+  }
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    padding: 37px 15px 40px 15px;
+  }
+}
+
+.vacancy-card__heading {
+  width: 46%;
+  @media (max-width: $breakpoint-medium) {
+    width: auto;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 25px;
+  }
+}
+
+.vacancy-card__title {
+  margin-bottom: 20px;
+  color: #306e85;
+  font-family: $font-decor;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  @media (max-width: $breakpoint-small) {
+    font-size: 18px;
+  }
+}
+
+.vacancy-card__desc {
+  max-width: 440px;
+  color: #474a4b;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.vacancy-card__price {
+  width: 14%;
+  color: #21292c;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+  @media (max-width: $breakpoint-medium) {
+    width: auto;
+  }
+}
+
+.vacancy-card__busyness {
+  width: 22%;
+  color: #21292c;
+  font-size: 15px;
+  font-weight: 500;
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
+}
+
+.vacancy-card__experience {
+  width: 18%;
+  color: #21292c;
+  font-size: 15px;
+  font-weight: 500;
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
+}

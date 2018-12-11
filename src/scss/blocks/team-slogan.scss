@@ -1,10 +1,10 @@
 .team-slogan {
   padding: 125px 64px 125px 0;
   box-sizing: border-box;
-  background: #fff url("../img/bg-callback-modal.jpg") 0 0 repeat-y;
+  background: #fff url("../img/bg-callback-modal.jpg") 0 7px repeat-y;
   background-size: 100% 20px;
   @media (max-width: $breakpoint-medium) {
-      padding: 80px 64px 80px 0;
+    padding: 80px 64px 80px 0;
   }
 }
 

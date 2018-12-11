@@ -88,5 +88,10 @@ $breadcrumb-item-color: #798082;
   text-decoration: none;
 }
 
+.uk-breadcrumb > * {
+  max-width: 100%;
+}
+
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
