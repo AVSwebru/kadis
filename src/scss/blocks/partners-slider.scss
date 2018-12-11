@@ -14,13 +14,13 @@
   align-items: center;
   justify-content: center;
 }
-// 
-// .partners-slider__arrow {
-//   color: $theme-color;
-//   &:hover {
-//     color: $theme-color;
-//   }
-// }
+
+.partners-slider__arrow {
+  color: #a5a5a5;
+  &:hover {
+    color: #a5a5a5;
+  }
+}
 
 .partners-slider__arrow svg {
   width: 22px;

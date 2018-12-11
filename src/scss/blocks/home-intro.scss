@@ -4,6 +4,11 @@
   padding-top: 70px;
 }
 
+.home-intro__content {
+  position: relative;
+  z-index: 5;
+}
+
 .home-intro__title {
   margin-bottom: 25px;
   color: #fff;
@@ -39,6 +44,7 @@
 
 .home-intro__callback {
   margin-right: 28px;
+  min-width: 160px;
 }
 
 .home-intro__link {

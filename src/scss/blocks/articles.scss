@@ -12,6 +12,7 @@
 }
 
 .article__default-btn {
+  min-width: 200px;
   @media (max-width: $breakpoint-medium) {
     margin-left: 50px;
   }

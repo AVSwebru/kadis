@@ -32,13 +32,16 @@
 
 .header-main__mail {
   margin: 10px 50px 10px 0;
+  @media (max-width: $breakpoint-xlarge) {
+    margin-right: 20px;
+  }
 }
 
 .header-main__calls {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  @media (max-width: $breakpoint-large) {
+  @media (max-width: $breakpoint-medium) {
     flex-direction: column;
     align-items: flex-end;
   }
@@ -65,11 +68,17 @@
 
 .header-main__time {
   margin: 10px 50px 10px 0;
+  @media (max-width: $breakpoint-xlarge) {
+    margin-right: 20px;
+  }
 }
 
 .header-main__tel {
   margin: 7px 85px 7px 0;
-  @media (max-width: $breakpoint-large) {
+  @media (max-width: $breakpoint-xlarge) {
+    margin-right: 20px;
+  }
+  @media (max-width: $breakpoint-medium) {
     margin-right: 0;
   }
   @media (max-width: $breakpoint-small) {
