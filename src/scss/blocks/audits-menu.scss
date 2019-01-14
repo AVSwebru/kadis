@@ -1,0 +1,47 @@
+.audits-menu {
+  background-color: #e2e9f0;
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
+}
+
+.audits-menu__image {
+  margin-bottom: 20px;
+  padding-top: 40%;
+  background: #e2e9f0 url('../img/audits-menu.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.audits-menu__title {
+  margin: 0 37px 6px;
+  color: #21292c;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.audits-menu__list {
+  @include m-reset-list;
+}
+
+.audits-menu__item {
+  &.active {
+    .audits-menu__link {
+      background-color: #c0cedc;
+      border-color: #26a3cc;
+    }
+  }
+}
+
+.audits-menu__link {
+  @include m-no-link-decor;
+  display: block;
+  padding: 15px 38px;
+  border-left: 8px solid transparent;
+  color: #21292c;
+  font-size: 18px;
+  line-height: 1;
+  &:hover {
+    background-color: #c0cedc;
+    color: #21292c;
+  }
+}

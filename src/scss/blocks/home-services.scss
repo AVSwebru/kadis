@@ -31,7 +31,7 @@
     margin-bottom: 20px;
     &:nth-child(n),
     &:nth-child(2n) {
-      grid-template-columns: auto;
+      grid-template-columns: 100%;
     }
   }
 }

@@ -1,6 +1,7 @@
 .header-info {
   background-color: $bg-color-1;
   @media (max-width: $breakpoint-small) {
+    display: none;
     height: 0;
   }
 }
@@ -12,19 +13,15 @@
   min-height: 50px;
 }
 
-.header-info__location {
-  color: #21292c;
+.header-info__audit {
   font-size: 14px;
+  color: #21292c;
+  line-height: 1;
+  &:hover {
+    color: #21292c;
+  }
 }
 
-.header-info__discount {
-  color: #21292c;
-  font-size: 14px;
-  @include m-no-link-decor;
-  &:hover {
-    color: #306e85;
-  }
-  @media (max-width: $breakpoint-medium) {
-    display: none;
-  }
+.header-info__audit-icon {
+  margin-right: 9px;
 }
