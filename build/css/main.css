@@ -12950,16 +12950,18 @@ iframe.uk-cover {
   align-items: center;
   margin: 0 -5px; }
 
-.social-bar__item {
+.social-bar__link {
+  margin: 0 5px; }
+
+.social-bar__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 5px;
   width: 26px;
   height: 26px;
   background-color: #424242;
   transition: background-color 0.25s; }
-  .social-bar__item:hover {
+  .social-bar__link:hover {
     background-color: #48b8dd;
     transition: background-color 0.25s; }
 
