@@ -11019,6 +11019,14 @@ iframe.uk-cover {
 .tel__icon {
   fill: #adadad; }
 
+.tel__label {
+  display: block;
+  margin-left: 45px;
+  color: #8d9193;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1; }
+
 .mail {
   white-space: nowrap;
   color: #21292c;
@@ -11076,7 +11084,6 @@ iframe.uk-cover {
 .footer-main {
   position: relative;
   padding-top: 35px;
-  padding-bottom: 85px;
   background-color: #fff;
   border-top: 1px solid #dedede; }
   @media (max-width: 960px) {
@@ -11086,7 +11093,7 @@ iframe.uk-cover {
   @media (max-width: 640px) {
     .footer-main {
       padding-top: 30px;
-      padding-bottom: 130px; } }
+      padding-bottom: 30px; } }
 
 .footer-main__wrapper {
   display: flex;
@@ -12902,9 +12909,8 @@ iframe.uk-cover {
   font-weight: 700; }
 
 .quality-certificate {
-  position: absolute;
-  left: 0;
-  bottom: -97px;
+  position: relative;
+  top: 15px;
   width: 116px;
   height: 116px;
   background: url("../img/quality-certificate.svg") 50% 50% no-repeat;
@@ -12914,4 +12920,60 @@ iframe.uk-cover {
       bottom: -110px; } }
   @media (max-width: 640px) {
     .quality-certificate {
-      bottom: -150px; } }
+      bottom: -150px;
+      order: 2; } }
+
+.social-bar {
+  display: flex;
+  align-items: center; }
+  @media (max-width: 640px) {
+    .social-bar {
+      flex-direction: column;
+      order: 1;
+      align-items: flex-start; } }
+
+.social-bar__text {
+  margin-right: 18px;
+  color: #21292c;
+  font-size: 14px;
+  font-weight: 400; }
+  @media (max-width: 640px) {
+    .social-bar__text {
+      margin-right: 0;
+      margin-bottom: 10px; } }
+
+.social-bar__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 -5px; }
+
+.social-bar__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  width: 26px;
+  height: 26px;
+  background-color: #424242;
+  transition: background-color 0.25s; }
+  .social-bar__item:hover {
+    background-color: #48b8dd;
+    transition: background-color 0.25s; }
+
+.social-bar__link-icon {
+  fill: #fff; }
+
+.footer-add {
+  background-color: #fff; }
+
+.footer-add__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  @media (max-width: 640px) {
+    .footer-add__wrapper {
+      flex-direction: column;
+      align-items: flex-start; } }

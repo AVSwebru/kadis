@@ -1,0 +1,13 @@
+.footer-add {
+  background-color: #fff;
+}
+
+.footer-add__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

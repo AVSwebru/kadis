@@ -1,7 +1,6 @@
 .quality-certificate {
-  position: absolute;
-  left: 0;
-  bottom: -97px;
+  position: relative;
+  top: 15px;
   width: 116px;
   height: 116px;
   background: url('../img/quality-certificate.svg') 50% 50% no-repeat;
@@ -11,5 +10,6 @@
   }
   @media (max-width: $breakpoint-small) {
     bottom: -150px;
+    order: 2;
   }
 }
