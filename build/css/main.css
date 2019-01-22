@@ -10996,7 +10996,7 @@ iframe.uk-cover {
     background-size: 9px 9px; }
 
 .tel {
-  display: inline-block;
+  display: block;
   white-space: nowrap;
   color: #21292c;
   font-size: 22px;
