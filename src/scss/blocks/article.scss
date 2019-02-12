@@ -1,0 +1,26 @@
+.article {
+  padding-bottom: 180px;
+}
+
+.article__time {
+  display: block;
+  margin-bottom: 25px;
+  color: #798184;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.article__image-wrapper {
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 88px;
+    height: 2px;
+    background-color: #ff9600;
+  }
+}

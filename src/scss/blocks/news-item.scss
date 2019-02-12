@@ -17,6 +17,7 @@
 }
 
 .news-item__image-container {
+  display: block;
   padding-top: 77%;
   @media (max-width: $breakpoint-small) {
     padding-top: 50%;
