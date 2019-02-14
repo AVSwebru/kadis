@@ -8,6 +8,8 @@ $container-large-max-width: 1840px;
 $container-small-max-width: 1277px;
 $global-medium-gutter: 15px;
 
+$navbar-dropdown-width: 300px;
+
 // 2. Import default variables and available mixins.
 @import "uikit/src/scss/variables-theme.scss";
 @import "uikit/src/scss/mixins-theme.scss";
