@@ -10103,23 +10103,16 @@ iframe.uk-cover {
   @media (max-width: 640px) {
     .header-nav {
       display: none;
-      min-height: calc(100vmax - 60px); }
+      min-height: 100vh; }
       .header-nav.is-active {
-        display: block;
-        width: 100%;
-        height: calc(100vmax - 60px);
-        overflow-y: scroll;
         position: fixed;
-        top: 75px;
-        z-index: 10; }
-        .header-nav.is-active::before {
-          content: '';
-          width: 100%;
-          height: 75px;
-          position: fixed;
-          top: 0;
-          left: 0;
-          background-color: rgba(0, 0, 0, 0.9); } }
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: block;
+        padding-top: 75px;
+        box-sizing: border-box;
+        overflow-y: scroll; } }
 
 .header-nav__wrapper {
   display: flex;
@@ -10127,9 +10120,12 @@ iframe.uk-cover {
   justify-content: space-between; }
   @media (max-width: 640px) {
     .header-nav__wrapper {
+      position: relative;
+      z-index: 2;
       margin-left: -20px;
       margin-right: -20px;
-      padding-bottom: 50px; } }
+      padding-bottom: 50px;
+      overflow-y: scroll; } }
 
 .header-nav__list {
   width: 100%;
@@ -10149,7 +10145,7 @@ iframe.uk-cover {
         height: auto; } }
   @media (max-width: 640px) {
     .header-nav__list {
-      height: auto; } }
+      height: 100%; } }
 
 .header-nav__list > li {
   flex-grow: 1; }
@@ -10245,7 +10241,7 @@ iframe.uk-cover {
       padding: 37px 0 50px; } }
 
 .home-intro {
-  background: #0e4493 url("../img/home-intro.jpg") 50% 50% no-repeat;
+  background: #0e4493 url("../img/bg-intro.jpg") 50% 50% no-repeat;
   background-size: cover;
   padding-top: 70px; }
 
@@ -10302,6 +10298,10 @@ iframe.uk-cover {
       -webkit-animation: arrow-move 0.25s ease-out;
               animation: arrow-move 0.25s ease-out; }
 
+@media (max-width: 640px) {
+  .home-intro__video {
+    display: none; } }
+
 .default-btn {
   display: inline-block;
   height: 60px;
@@ -10309,13 +10309,17 @@ iframe.uk-cover {
   box-sizing: border-box;
   background-color: #48b8dd;
   border: none;
+  border-radius: 0;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
   .default-btn:hover {
     background-image: linear-gradient(to bottom, #1f9bc4, #48b8dd);
     color: #fff;
@@ -10929,7 +10933,8 @@ iframe.uk-cover {
     border: 1px solid #89e2ff; }
   @media (max-width: 640px) {
     .callback-form__input {
-      width: 100%; } }
+      width: 100%;
+      font-size: 16px; } }
 
 .callback-form__textarea {
   width: 430px;
@@ -10947,7 +10952,8 @@ iframe.uk-cover {
     border: 1px solid #89e2ff; }
   @media (max-width: 640px) {
     .callback-form__textarea {
-      width: 100%; } }
+      width: 100%;
+      font-size: 16px; } }
 
 .callback-form__submit {
   min-width: 164px;
@@ -11023,7 +11029,13 @@ iframe.uk-cover {
         margin-right: 15px; } }
 
 .tel__icon {
+  width: 15px;
+  height: 15px;
   fill: #adadad; }
+  @media (max-width: 640px) {
+    .tel__icon {
+      width: 21px;
+      height: 21px; } }
 
 .tel__label {
   display: block;
@@ -11404,7 +11416,7 @@ iframe.uk-cover {
   cursor: pointer; }
   .menu-btn.is-active {
     position: fixed;
-    top: 20px;
+    top: 30px;
     right: 20px;
     z-index: 20; }
     .menu-btn.is-active .menu-btn__menu-icon {
@@ -11425,12 +11437,12 @@ iframe.uk-cover {
 .menu-btn__close-icon svg {
   width: 30px;
   height: 30px;
-  color: #48b8dd; }
+  color: #fff; }
 
-@media (max-width: 640px) {
-  .header-search {
-    display: none; }
-    .header-search.is-active {
+.header-search_adapt {
+  display: none; }
+  @media (max-width: 640px) {
+    .header-search_adapt.is-active {
       display: block;
       width: 100%;
       height: 100vh;
@@ -11439,6 +11451,15 @@ iframe.uk-cover {
       left: 0;
       z-index: 10;
       background-color: rgba(0, 0, 0, 0.9); } }
+
+.header-search__submit {
+  top: auto;
+  bottom: 6px;
+  width: 15px;
+  height: 15px;
+  color: #767676; }
+  .header-search__submit:hover {
+    color: #767676; }
 
 @media (max-width: 640px) {
   .header-search__wrapper {

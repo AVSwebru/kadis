@@ -26,7 +26,13 @@
 }
 
 .tel__icon {
+  width: 15px;
+  height: 15px;
   fill: #adadad;
+  @media (max-width: $breakpoint-small) {
+    width: 21px;
+    height: 21px;
+  }
 }
 
 .tel__label {

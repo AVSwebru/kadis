@@ -8,7 +8,7 @@
   cursor: pointer;
   &.is-active {
     position: fixed;
-    top: 20px;
+    top: 30px;
     right: 20px;
     z-index: 20;
     .menu-btn__menu-icon {
@@ -35,5 +35,5 @@
 .menu-btn__close-icon svg {
   width: 30px;
   height: 30px;
-  color: #48b8dd;
+  color: #fff;
 }
