@@ -1,0 +1,50 @@
+.page-404 {
+  background: #fff url("../img/waves.jpg") no-repeat 50% 100%;
+}
+
+.page-404__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 8vmax;
+  box-sizing: border-box;
+}
+
+.page-404__img {
+  margin-bottom: 75px;
+  @media (max-width: $breakpoint-large) {
+    width: 500px;
+    margin-bottom: 35px;
+  }
+}
+
+.page-404__number {
+  margin-bottom: 40px;
+  color: #cfecfc;
+  text-shadow: #47b8dd 0 0 1px;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.page-404__title {
+  margin: 0 0 15px;
+  text-align: center;
+  font-family: $font-decor;
+  font-size: 48px;
+  line-height: 1;
+  @media (max-width: $breakpoint-small) {
+    font-size: 32px;
+  }
+}
+
+.page-404__subtitle {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.page-404__link {
+  min-width: 170px;
+  margin-bottom: 50px;
+}

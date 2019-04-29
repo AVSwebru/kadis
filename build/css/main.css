@@ -9975,19 +9975,19 @@ iframe.uk-cover {
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans/OpenSans-Regular.woff"), local("OpenSans Regular"), local("OpenSans-Regular");
+  src: url("../fonts/OpenSans-Regular.woff"), local("OpenSans Regular"), local("OpenSans-Regular");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans/OpenSans-Bold.woff"), local("OpenSans Bold"), local("OpenSans-Bold");
+  src: url("../fonts/OpenSans-Bold.woff"), local("OpenSans Bold"), local("OpenSans-Bold");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: "Yeseva One";
-  src: url("../fonts/YesevaOne/YesevaOne-Regular.woff2"), local("Yeseva One Regular"), local("Yeseva One-Regular");
+  src: url("../fonts/YesevaOne-Regular.woff2"), local("Yeseva One Regular"), local("Yeseva One-Regular");
   font-weight: normal;
   font-style: normal; }
 
@@ -13106,3 +13106,47 @@ iframe.uk-cover {
     width: 88px;
     height: 2px;
     background-color: #ff9600; }
+
+.page-404 {
+  background: #fff url("../img/waves.jpg") no-repeat 50% 100%; }
+
+.page-404__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 8vmax;
+  box-sizing: border-box; }
+
+.page-404__img {
+  margin-bottom: 75px; }
+  @media (max-width: 1200px) {
+    .page-404__img {
+      width: 500px;
+      margin-bottom: 35px; } }
+
+.page-404__number {
+  margin-bottom: 40px;
+  color: #cfecfc;
+  text-shadow: #47b8dd 0 0 1px;
+  font-size: 48px;
+  line-height: 1; }
+
+.page-404__title {
+  margin: 0 0 15px;
+  text-align: center;
+  font-family: "Yeseva One", serif;
+  font-size: 48px;
+  line-height: 1; }
+  @media (max-width: 640px) {
+    .page-404__title {
+      font-size: 32px; } }
+
+.page-404__subtitle {
+  margin-bottom: 35px;
+  text-align: center; }
+
+.page-404__link {
+  min-width: 170px;
+  margin-bottom: 50px; }

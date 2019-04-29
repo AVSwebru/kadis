@@ -10,614 +10,617 @@
 </head>
 
 <body class="page">
-
-  <div class="uk-container uk-container-large">
-    <header class="header">
-      <div class="header-info">
-        <div class="uk-container uk-container-small">
-          <div class="header-info__wrapper">
-            <div class="header-info__location">
-              Воронеж, Курск
-            </div>
-            <a class="header-info__discount" href="#">
-              Акция! <span class="header-info__discount-detailed">Скидка 30% на составление годового отчета</span>
-            </a>
-            <form class="header-search js-search-form">
-              <div class="header-search__wrapper uk-inline">
-                <input class="header-search__input uk-search-input" type="search" placeholder="Поиск">
-                <button class="uk-form-icon uk-form-icon-flip" type="submit" data-uk-icon="icon: search"></button>
+  <div class="page__wrapper">
+    <div class="uk-container uk-container-large">
+      <header class="header">
+        <div class="header-info">
+          <div class="uk-container uk-container-small">
+            <div class="header-info__wrapper">
+              <div class="header-info__location">
+                Воронеж, Курск
               </div>
-              <button class="header-search__close-btn close-btn js-search-close" data-uk-icon="icon: close">
-              </button>
-            </form>
+              <a class="header-info__discount" href="#">
+                Акция! <span class="header-info__discount-detailed">Скидка 30% на составление годового отчета</span>
+              </a>
+              <form class="header-search js-search-form">
+                <div class="header-search__wrapper uk-inline">
+                  <input class="header-search__input uk-search-input" type="search" placeholder="Поиск">
+                  <button class="uk-form-icon uk-form-icon-flip" type="submit" data-uk-icon="icon: search"></button>
+                </div>
+                <button class="header-search__close-btn close-btn js-search-close" data-uk-icon="icon: close">
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="header-main">
-        <div class="uk-container uk-container-small">
-          <div class="header-main__wrapper">
-            <a class="header-main__logo" href="#">
-              <img src="../img/logo.png" width="151" height="87" alt="">
-            </a>
-            <div class="header-main__info">
-              <a class="header-main__mail mail mail_place_header" href="mailto: af_kadis@mail.ru">
-                <svg class="mail__icon" width="17" height="12">
-                  <use xlink:href="/img/sprite.svg#letter" />
-                </svg>
-                af_kadis@mail.ru
+        <div class="header-main">
+          <div class="uk-container uk-container-small">
+            <div class="header-main__wrapper">
+              <a class="header-main__logo" href="#">
+                <img src="../img/logo.png" width="151" height="87" alt="">
               </a>
-              <div class="header-main__time time time_place_header">
-                <svg class="time__icon" width="15" height="15">
-                  <use xlink:href="/img/sprite.svg#clock" />
-                </svg>
-                Пн-Пт: с 9:00 до 18:00
+              <div class="header-main__info">
+                <a class="header-main__mail mail mail_place_header" href="mailto: af_kadis@mail.ru">
+                  <svg class="mail__icon" width="17" height="12">
+                    <use xlink:href="/img/sprite.svg#letter" />
+                  </svg>
+                  af_kadis@mail.ru
+                </a>
+                <div class="header-main__time time time_place_header">
+                  <svg class="time__icon" width="15" height="15">
+                    <use xlink:href="/img/sprite.svg#clock" />
+                  </svg>
+                  Пн-Пт: с 9:00 до 18:00
+                </div>
               </div>
-            </div>
-            <div class="header-main__calls js-call-block">
-              <a class="header-main__tel tel tel_place_header" href="tel: +78003021519">
+              <div class="header-main__calls js-call-block">
+                <a class="header-main__tel tel tel_place_header" href="tel: +78003021519">
+                  <svg class="tel__icon" width="15" height="16">
+                    <use xlink:href="/img/sprite.svg#tel" />
+                  </svg>
+                  8(800) 302-15-19
+                </a>
+                <button class="header-main__callback-btn callback-btn" type="button" data-uk-toggle="#callback-modal">
+                  Заказать звонок
+                </button>
+                <button class="close-btn js-call-close" data-uk-icon="icon: close">
+              </div>
+              <button class="search-btn js-search-open" type="button" data-uk-icon="icon: search">
+              </button>
+              <button class="call-btn js-call-open" type="button">
                 <svg class="tel__icon" width="15" height="16">
                   <use xlink:href="/img/sprite.svg#tel" />
                 </svg>
-                8(800) 302-15-19
-              </a>
-              <button class="header-main__callback-btn callback-btn" type="button" data-uk-toggle="#callback-modal">
-                Заказать звонок
               </button>
-              <button class="close-btn js-call-close" data-uk-icon="icon: close">
+              <button class="menu-btn js-menu-btn" type="button">
+                <span class="menu-btn__menu-icon" data-uk-icon="icon: menu"></span>
+                <span class="menu-btn__close-icon" data-uk-icon="icon: close"></span>
+              </button>
             </div>
-            <button class="search-btn js-search-open" type="button" data-uk-icon="icon: search">
-            </button>
-            <button class="call-btn js-call-open" type="button">
-              <svg class="tel__icon" width="15" height="16">
-                <use xlink:href="/img/sprite.svg#tel" />
-              </svg>
-            </button>
-            <button class="menu-btn js-menu-btn" type="button">
-              <span class="menu-btn__menu-icon" data-uk-icon="icon: menu"></span>
-              <span class="menu-btn__close-icon" data-uk-icon="icon: close"></span>
-            </button>
           </div>
         </div>
-      </div>
-      <nav class="header-nav js-menu" data-uk-navbar>
-        <div class="uk-container uk-container-small">
-          <div class="header-nav__wrapper">
-            <ul class="header-nav__list uk-navbar-nav js-nav">
-              <li>
-                <a href="#" class="header-nav__link">Аутсорсинг</a>
-              </li>
-              <li>
-                <a href="#" class="header-nav__link">Аудит</a>
-              </li>
-              <li>
-                <a href="#" class="header-nav__link">Антикризисное управление</a>
-              </li>
-              <li>
-                <a href="#" class="header-nav__link">Цены</a>
-              </li>
-              <li class="parent">
-                <a href="about.html" class="header-nav__link">О компании</a>
-                <div class="header-nav__inner-menu uk-navbar-dropdown">
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li>
-                      <a href="#">Новости</a>
-                    </li>
-                    <li>
-                      <a href="#">Акции</a>
-                    </li>
-                    <li>
-                      <a href="#">Сертификаты и лицензии</a>
-                    </li>
-                    <li>
-                      <a href="#">Наши партнеры</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="parent">
-                <a href="#" class="header-nav__link">Кадровое агентство</a>
-                <div class="header-nav__inner-menu uk-navbar-dropdown">
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li>
-                      <a href="employers.html">Кадровое агентство для работодателей</a>
-                    </li>
-                    <li>
-                      <a href="seeker.html">Кадровое агентство для бухгалтеров</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a href="school.html" class="header-nav__link">Школа бухгалтеров</a>
-              </li>
-              <li>
-                <a href="#" class="header-nav__link">Контакты</a>
-              </li>
-            </ul>
-            <button class="nav-toggler js-nav-toggler">
-              <span class="nav-toggler__more" data-uk-icon="more"></span>
-              <span class="nav-toggler__close" data-uk-icon="close"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="innerpage about">
-      <div class="uk-container uk-container-small">
-        <ul class="breadcrumbs uk-breadcrumb">
-          <li><a href="#">Главная</a></li>
-          <li><span>О компании</span></li>
-        </ul>
-        <h1 class="innerpage__title">
-          О компании
-        </h1>
-        <div class="about__row-first">
-          <div>
-            <section class="about-mission js-mission">
-              <div class="about-mission__content js-mission-content">
-                <h2 class="about-mission__title js-mission-title">
-                  Миссия компании
-                </h2>
-                <div class="about-mission__text">
-                  <span class="js-mission-text">
-                    Способствовать обучению, росту и развитию деятельности, направленной на достижение гуманных целей, и
-                    повышению благосостояния компаний, клиентов и общества в целом.
-                  </span>
-                </div>
-                <svg class="about-mission__sign js-mission-sign" width="46" height="63">
-                  <path id="a"
-                    d="M914.845 517.436c.279.387.164.928-.24 1.134l-4.482 2.524a.782.782 0 0 0-.38.824l.925 5.126c.076.464-.254.902-.722.927l-5.114.297a.788.788 0 0 0-.696.58l-1.355 5.022a.77.77 0 0 1-1.038.515l-4.734-1.983a.751.751 0 0 0-.873.206l-3.368 3.928a.771.771 0 0 1-1.164.013l-3.418-3.877a.79.79 0 0 0-.886-.193l-4.71 2.061a.769.769 0 0 1-1.05-.502l-1.43-5.01a.775.775 0 0 0-.71-.567l-5.114-.22c-.468-.012-.81-.45-.734-.914l.849-5.138a.774.774 0 0 0-.393-.825l-4.52-2.46a.797.797 0 0 1-.265-1.146l2.962-4.25a.805.805 0 0 0-.013-.914l-3.025-4.211a.8.8 0 0 1 .253-1.147l4.481-2.524a.783.783 0 0 0 .38-.824l-.924-5.126c-.076-.464.253-.902.722-.927l5.114-.297a.788.788 0 0 0 .696-.58l1.354-5.022a.77.77 0 0 1 1.039-.515l4.734 1.984a.751.751 0 0 0 .873-.207l3.368-3.928a.77.77 0 0 1 1.164-.013l3.418 3.877a.79.79 0 0 0 .886.193l4.71-2.06a.769.769 0 0 1 1.05.502l1.417 5.022c.09.323.38.554.71.567l5.113.219c.469.013.81.45.735.914l-.848 5.14a.774.774 0 0 0 .392.824l4.52 2.46c.405.218.53.76.265 1.146l-2.962 4.25a.806.806 0 0 0 .012.914zm-22.836 9.621c7.658 0 13.899-6.336 13.899-14.141 0-7.791-6.24-14.141-13.9-14.141-7.658 0-13.899 6.35-13.899 14.141 0 7.792 6.241 14.141 13.9 14.141zm16.38 21.276a.58.58 0 0 1-.71.734l-4.594-1.365a.563.563 0 0 0-.608.206l-2.95 3.851a.568.568 0 0 1-1-.18l-4.05-12.776c.089-.065.165-.142.253-.219l2.52-2.344 3.265 1.005c.368.103.76.167 1.152.167a3.976 3.976 0 0 0 2.861-1.21zm-19.089-9.736c.075.077.164.154.253.219l-4.05 12.775a.569.569 0 0 1-1 .181l-2.95-3.85a.555.555 0 0 0-.608-.207l-4.595 1.366a.577.577 0 0 1-.709-.735l3.86-12.144a3.996 3.996 0 0 0 4.014 1.043l3.266-1.005zm10.95-29.197c.987.077 1.38 1.326.62 1.97l-4.013 3.452 1.253 5.19c.24.98-.81 1.752-1.646 1.224l-4.455-2.82-4.456 2.82c-.835.528-1.886-.245-1.646-1.224l1.253-5.19-4.013-3.452c-.746-.644-.354-1.893.633-1.97l5.241-.386 1.975-4.946c.367-.927 1.67-.927 2.038 0l1.975 4.946z"
-                    transform="translate(-869 -489)" fill="#e8e8e8" />
-                </svg>
-              </div>
-            </section>
-          </div>
-          <div>
-            <div class="about__info-item">
-              <div class="about__lead-text js-mission-info">
-                Дата создания ООО КАДИС<br>
-                20 октября 1997 года
-              </div>
-            </div>
-            <div class="about__info-item js-mission-info">
-              <div class="about__lead-list">
-                Основной вид деятельности:
-              </div>
-              <ul class="about__list">
-                <li>бухгалтерский аутсорсинг</li>
-                <li>аудит</li>
-                <li>консалтинг</li>
+        <nav class="header-nav js-menu" data-uk-navbar>
+          <div class="uk-container uk-container-small">
+            <div class="header-nav__wrapper">
+              <ul class="header-nav__list uk-navbar-nav js-nav">
+                <li>
+                  <a href="#" class="header-nav__link">Аутсорсинг</a>
+                </li>
+                <li>
+                  <a href="#" class="header-nav__link">Аудит</a>
+                </li>
+                <li>
+                  <a href="#" class="header-nav__link">Антикризисное управление</a>
+                </li>
+                <li>
+                  <a href="#" class="header-nav__link">Цены</a>
+                </li>
+                <li class="parent">
+                  <a href="about.html" class="header-nav__link">О компании</a>
+                  <div class="header-nav__inner-menu uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                      <li>
+                        <a href="#">Новости</a>
+                      </li>
+                      <li>
+                        <a href="#">Акции</a>
+                      </li>
+                      <li>
+                        <a href="#">Сертификаты и лицензии</a>
+                      </li>
+                      <li>
+                        <a href="#">Наши партнеры</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="parent">
+                  <a href="#" class="header-nav__link">Кадровое агентство</a>
+                  <div class="header-nav__inner-menu uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                      <li>
+                        <a href="employers.html">Кадровое агентство для работодателей</a>
+                      </li>
+                      <li>
+                        <a href="seeker.html">Кадровое агентство для бухгалтеров</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="school.html" class="header-nav__link">Школа бухгалтеров</a>
+                </li>
+                <li>
+                  <a href="#" class="header-nav__link">Контакты</a>
+                </li>
               </ul>
-            </div>
-            <div class="about__info-item js-mission-info">
-              <div class="about__lead-list">
-                Другие направления деятельности:
-              </div>
-              <ul class="about__list">
-                <li>образовательные услуги</li>
-                <li>подбор и трудоустройство персонала</li>
-              </ul>
+              <button class="nav-toggler js-nav-toggler">
+                <span class="nav-toggler__more" data-uk-icon="more"></span>
+                <span class="nav-toggler__close" data-uk-icon="close"></span>
+              </button>
             </div>
           </div>
-        </div>
-        <div class="about__row-second">
-          <div>
-            <div class="about__info-item">
-              <div class="about__lead-list">
-                Другие направления деятельности:
-              </div>
-              <ul class="about__list">
-                <li>удовлетворение потребностей клиентов в получении услуг хорошего качества и в нужное время;</li>
-                <li>ориентация на весь комплекс услуг ( от создания ООО и открытия банковского счета, ведения
-                  бухгалтерского и налогового учета, аудита до юридического сопровождения, постановки финансового учета,
-                  подбора и обучения персонала, настройки бухгалтерских программ , консультирования;</li>
-                <li>внедрение современных подходов, применение лучших практик, непрерывная оптимизация процессов
-                  обслуживания, модернизация
-                  и обновление технической базы;</li>
-                <li>максимально эффективное использование ресурсов: трудовых, финансовых, технологических,
-                  интеллектуальных;</li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div class="about__info-video uk-cover-container">
-              <img data-uk-cover src="../img/school-album-1.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <section class="about-offices">
+        </nav>
+      </header>
+      <main class="innerpage about">
         <div class="uk-container uk-container-small">
-          <h2 class="about-offices__title">
-            Офисы и клиенты
-          </h2>
-          <div class="about-offices__grid">
-            <div>
-              <div class="about-offices__map">
-                <img src="../img/offices-map.jpg" alt="Карта офисов">
-              </div>
-            </div>
-            <div>
-              <div class="about-offices__album">
-                <div>
-                  <div class="about-offices__album-photo uk-cover-container">
-                    <img data-uk-cover src="../img/about-office-photo-1.jpg" alt="">
-                  </div>
-                </div>
-                <div>
-                  <div class="about-offices__album-photo uk-cover-container">
-                    <img data-uk-cover src="../img/about-office-photo-2.jpg" alt="">
-                  </div>
-                </div>
-                <div>
-                  <div class="about-offices__album-photo uk-cover-container">
-                    <img data-uk-cover src="../img/about-office-photo-3.jpg" alt="">
-                  </div>
-                </div>
-                <div>
-                  <div class="about-offices__album-photo uk-cover-container">
-                    <img data-uk-cover src="../img/about-office-photo-4.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="about-offices__location">
-                <div class="about-offices__location-text">
-                  Офисы во всех
-                  районах Воронежа
-                </div>
-                <a class="default-btn default-btn_location" href="#">
-                  Подробнее
-                  <span class="default-btn__arrow" data-uk-icon="arrow-right"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about-education innerpage__section">
-        <div class="uk-container uk-container-small">
-          <h2 class="about-education__title innerpage__title">
-            Образовательная деятельность и кадровое агентство
-          </h2>
-          <div class="about-education__text">
-            Компания работает грамотно, но вместе с тем творчески. Быть гибкими, быстро реагировать на все изменения и
-            нововведения, иметь хорошую материально-техническую базу и хорошо подобранный коллектив - главные принципы
-            компании.
-          </div>
-          <div class="about-education__items">
-            <div class="about-education__item">
-              С 2014 года ведутся бухгалтерские курсы для начинающих бухгалтеров и главных бухгалтеров.
-            </div>
-            <div class="about-education__item">
-              Индивидуальное бухгалтерское репетиторство, курсы повышения квалификации, сертификация.
-            </div>
-            <div class="about-education__item">
-              Трудоустройство выпускников, прошедших обучение и показавших высокие результаты.
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about-team innerpage__section">
-        <div class="uk-container uk-container-small">
-          <h2 class="about-team__title innerpage__section-title">
-            Наша команда
-          </h2>
-          <div class="about-team__intro">
-            <div>
-              <div class="about-team__director">
-                <div class="about-team__director-image uk-cover-container">
-                  <img data-uk-cover src="../img/director.jpg" alt="">
-                </div>
-                <div class="about-team__director-name">
-                  Кретова Наталья Михайловна
-                </div>
-                <div class="about-team__director-position">
-                  директор OOO “КАДиС”
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="team-slogan">
-                <div class="team-slogan__text">
-                  Бухгалтерский аутсорсинг и аудит.<br> Сократите затраты, доверьте бухгалтерию профессионалам.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="about-team__group">
-            <div>
-              <div class="team-item">
-                <div class="team-item__image uk-cover-container">
-                  <img data-uk-cover src="../img/team-item.jpg" alt="">
-                </div>
-                <div class="team-item__name">
-                  Юршина Ольга Викторовна
-                </div>
-                <div class="team-item__position">
-                  финансовый директор
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="team-item">
-                <div class="team-item__image uk-cover-container">
-                  <img data-uk-cover src="../img/team-item.jpg" alt="">
-                </div>
-                <div class="team-item__name">
-                  Юршина Ольга Викторовна
-                </div>
-                <div class="team-item__position">
-                  финансовый директор
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="team-item">
-                <div class="team-item__image uk-cover-container">
-                  <img data-uk-cover src="../img/team-item.jpg" alt="">
-                </div>
-                <div class="team-item__name">
-                  Юршина Ольга Викторовна
-                </div>
-                <div class="team-item__position">
-                  финансовый директор
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="team-item">
-                <div class="team-item__image uk-cover-container">
-                  <img data-uk-cover src="../img/team-item.jpg" alt="">
-                </div>
-                <div class="team-item__name">
-                  Юршина Ольга Викторовна
-                </div>
-                <div class="team-item__position">
-                  финансовый директор
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about-docs innerpage__section">
-        <div class="uk-container uk-container-small">
-          <h2 class="innerpage__section-title">
-            Сертификаты и лицензии
-          </h2>
-          <ul class="about-docs__list">
-            <li><img src="../img/doc-1.png" alt=""></li>
-            <li><img src="../img/doc-2.png" alt=""></li>
-            <li><img src="../img/doc-3.png" alt=""></li>
-            <li><img src="../img/doc-4.png" alt=""></li>
-            <li><img src="../img/doc-5.png" alt=""></li>
-            <li><img src="../img/doc-6.png" alt=""></li>
+          <ul class="breadcrumbs uk-breadcrumb">
+            <li><a href="#">Главная</a></li>
+            <li><span>О компании</span></li>
           </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer-main">
-        <div class="uk-container uk-container-small">
-          <div class="footer-main__wrapper js-footer-main-wrapper">
-            <div class="footer-main__leftside">
-              <div class="footer-main__contacts">
-                <div>
-                  <a class="footer-main__tel tel tel_place_footer" href="tel: +78003021519">
-                    <svg class="tel__icon" width="15" height="16">
-                      <use xlink:href="/img/sprite.svg#tel" />
-                    </svg>
-                    8(800) 302-15-19
-                  </a>
-                </div>
-                <div>
-                  <div class="footer-main__time time time_place_footer">
-                    <svg class="time__icon" width="15" height="15">
-                      <use xlink:href="/img/sprite.svg#clock" />
-                    </svg>
-                    Пн-Пт: с 9:00 до18:00
+          <h1 class="innerpage__title">
+            О компании
+          </h1>
+          <div class="about__row-first">
+            <div>
+              <section class="about-mission js-mission">
+                <div class="about-mission__content js-mission-content">
+                  <h2 class="about-mission__title js-mission-title">
+                    Миссия компании
+                  </h2>
+                  <div class="about-mission__text">
+                    <span class="js-mission-text">
+                      Способствовать обучению, росту и развитию деятельности, направленной на достижение гуманных целей,
+                      и
+                      повышению благосостояния компаний, клиентов и общества в целом.
+                    </span>
                   </div>
-                  <a class="footer-main__mail mail mail_place_footer" href="mailto: af_kadis@mail.ru">
-                    <svg class="mail__icon" width="17" height="12">
-                      <use xlink:href="/img/sprite.svg#letter" />
-                    </svg>
-                    af_kadis@mail.ru
-                  </a>
+                  <svg class="about-mission__sign js-mission-sign" width="46" height="63">
+                    <path id="a"
+                      d="M914.845 517.436c.279.387.164.928-.24 1.134l-4.482 2.524a.782.782 0 0 0-.38.824l.925 5.126c.076.464-.254.902-.722.927l-5.114.297a.788.788 0 0 0-.696.58l-1.355 5.022a.77.77 0 0 1-1.038.515l-4.734-1.983a.751.751 0 0 0-.873.206l-3.368 3.928a.771.771 0 0 1-1.164.013l-3.418-3.877a.79.79 0 0 0-.886-.193l-4.71 2.061a.769.769 0 0 1-1.05-.502l-1.43-5.01a.775.775 0 0 0-.71-.567l-5.114-.22c-.468-.012-.81-.45-.734-.914l.849-5.138a.774.774 0 0 0-.393-.825l-4.52-2.46a.797.797 0 0 1-.265-1.146l2.962-4.25a.805.805 0 0 0-.013-.914l-3.025-4.211a.8.8 0 0 1 .253-1.147l4.481-2.524a.783.783 0 0 0 .38-.824l-.924-5.126c-.076-.464.253-.902.722-.927l5.114-.297a.788.788 0 0 0 .696-.58l1.354-5.022a.77.77 0 0 1 1.039-.515l4.734 1.984a.751.751 0 0 0 .873-.207l3.368-3.928a.77.77 0 0 1 1.164-.013l3.418 3.877a.79.79 0 0 0 .886.193l4.71-2.06a.769.769 0 0 1 1.05.502l1.417 5.022c.09.323.38.554.71.567l5.113.219c.469.013.81.45.735.914l-.848 5.14a.774.774 0 0 0 .392.824l4.52 2.46c.405.218.53.76.265 1.146l-2.962 4.25a.806.806 0 0 0 .012.914zm-22.836 9.621c7.658 0 13.899-6.336 13.899-14.141 0-7.791-6.24-14.141-13.9-14.141-7.658 0-13.899 6.35-13.899 14.141 0 7.792 6.241 14.141 13.9 14.141zm16.38 21.276a.58.58 0 0 1-.71.734l-4.594-1.365a.563.563 0 0 0-.608.206l-2.95 3.851a.568.568 0 0 1-1-.18l-4.05-12.776c.089-.065.165-.142.253-.219l2.52-2.344 3.265 1.005c.368.103.76.167 1.152.167a3.976 3.976 0 0 0 2.861-1.21zm-19.089-9.736c.075.077.164.154.253.219l-4.05 12.775a.569.569 0 0 1-1 .181l-2.95-3.85a.555.555 0 0 0-.608-.207l-4.595 1.366a.577.577 0 0 1-.709-.735l3.86-12.144a3.996 3.996 0 0 0 4.014 1.043l3.266-1.005zm10.95-29.197c.987.077 1.38 1.326.62 1.97l-4.013 3.452 1.253 5.19c.24.98-.81 1.752-1.646 1.224l-4.455-2.82-4.456 2.82c-.835.528-1.886-.245-1.646-1.224l1.253-5.19-4.013-3.452c-.746-.644-.354-1.893.633-1.97l5.241-.386 1.975-4.946c.367-.927 1.67-.927 2.038 0l1.975 4.946z"
+                      transform="translate(-869 -489)" fill="#e8e8e8" />
+                  </svg>
                 </div>
-                <ul class="footer-short-menu js-footer-short-menu">
-                  <li><a href="#">О компании</a></li>
-                  <li><a href="#">Новости</a></li>
-                  <li><a href="#">Школа бухгалтеров</a></li>
-                  <li><a href="#">Сертификаты и лицензии</a></li>
-                  <li><a href="#">Наша команда</a></li>
+              </section>
+            </div>
+            <div>
+              <div class="about__info-item">
+                <div class="about__lead-text js-mission-info">
+                  Дата создания ООО КАДИС<br>
+                  20 октября 1997 года
+                </div>
+              </div>
+              <div class="about__info-item js-mission-info">
+                <div class="about__lead-list">
+                  Основной вид деятельности:
+                </div>
+                <ul class="about__list">
+                  <li>бухгалтерский аутсорсинг</li>
+                  <li>аудит</li>
+                  <li>консалтинг</li>
                 </ul>
-                <div class="footer-offices">
-                  <div class="footer-offices__heading">
-                    Наши офисы
-                  </div>
-                  <a class="footer-offices__link" href="#">
-                    <svg class="footer-offices__icon" width="12" height="15">
-                      <use xlink:href="/img/sprite.svg#pin" />
-                    </svg>
-                    <span class="footer-offices__text">Смотреть на карте</span>
-                  </a>
+              </div>
+              <div class="about__info-item js-mission-info">
+                <div class="about__lead-list">
+                  Другие направления деятельности:
                 </div>
+                <ul class="about__list">
+                  <li>образовательные услуги</li>
+                  <li>подбор и трудоустройство персонала</li>
+                </ul>
               </div>
             </div>
-            <div class="footer-main__rightside uk-grid uk-grid-large uk-child-width-1-3@m">
-              <div>
-                <section class="footer-menu-section">
-                  <h3 class="footer-menu-section__title">
-                    Бухгалтерский аутсорсинг
-                  </h3>
-                  <ul class="footer-menu-section__list">
-                    <li>
-                      <a href="#">
-                        Бухгалтерский и налоговый учет
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Кадровый учет и делопроизводство
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Составление и сдача отчетности
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Прохождение проверок налоговой, ПФР, ФСС, трудовая инспекция
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Налоговая оптимизация
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Консультирование
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div>
-                <section class="footer-menu-section">
-                  <h3 class="footer-menu-section__title">
-                    Аудиторские услуги
-                  </h3>
-                  <ul class="footer-menu-section__list">
-                    <li>
-                      <a href="#">
-                        Обязательный аудит
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Инициативный аудит
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Экспресс-аудит по налогам
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Аудиторское сопровождение главного бухгалтера
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div>
-                <section class="footer-menu-section">
-                  <h3 class="footer-menu-section__title">
-                    Антикризисное управление бухгалтерией и финансами
-                  </h3>
-                  <ul class="footer-menu-section__list">
-                    <li>
-                      <a href="#">
-                        Срочная сдача отчетности при увольнении главного бухгалтера
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Восстановление бухгалтерского учета
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Разблокировка счетов в банках
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Бухгалтерская поддержка при банкротстве
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Оптимизация численности бухгалтерии
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Постановка бухгалтерских учетных процессов заново
-                      </a>
-                    </li>
-                  </ul>
-                </section>
+          </div>
+          <div class="about__row-second">
+            <div>
+              <div class="about__info-item">
+                <div class="about__lead-list">
+                  Другие направления деятельности:
+                </div>
+                <ul class="about__list">
+                  <li>удовлетворение потребностей клиентов в получении услуг хорошего качества и в нужное время;</li>
+                  <li>ориентация на весь комплекс услуг ( от создания ООО и открытия банковского счета, ведения
+                    бухгалтерского и налогового учета, аудита до юридического сопровождения, постановки финансового
+                    учета,
+                    подбора и обучения персонала, настройки бухгалтерских программ , консультирования;</li>
+                  <li>внедрение современных подходов, применение лучших практик, непрерывная оптимизация процессов
+                    обслуживания, модернизация
+                    и обновление технической базы;</li>
+                  <li>максимально эффективное использование ресурсов: трудовых, финансовых, технологических,
+                    интеллектуальных;</li>
+                </ul>
               </div>
             </div>
-            <a class="to-top js-to-top" href="#" data-uk-scroll>
-              <span uk-icon="chevron-up"></span>
-              НАВЕРХ
-            </a>
+            <div>
+              <div class="about__info-video uk-cover-container">
+                <img data-uk-cover src="../img/school-album-1.jpg" alt="">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="uk-container uk-container-small">
-          <div class="footer-bottom__wrapper js-footer-bottom-wrapper">
-            <div class="footer-bottom__owner">
-              © ООО "КАДиС" 1997-2018
+        <section class="about-offices">
+          <div class="uk-container uk-container-small">
+            <h2 class="about-offices__title">
+              Офисы и клиенты
+            </h2>
+            <div class="about-offices__grid">
+              <div>
+                <div class="about-offices__map">
+                  <img src="../img/offices-map.jpg" alt="Карта офисов">
+                </div>
+              </div>
+              <div>
+                <div class="about-offices__album">
+                  <div>
+                    <div class="about-offices__album-photo uk-cover-container">
+                      <img data-uk-cover src="../img/about-office-photo-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="about-offices__album-photo uk-cover-container">
+                      <img data-uk-cover src="../img/about-office-photo-2.jpg" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="about-offices__album-photo uk-cover-container">
+                      <img data-uk-cover src="../img/about-office-photo-3.jpg" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="about-offices__album-photo uk-cover-container">
+                      <img data-uk-cover src="../img/about-office-photo-4.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="about-offices__location">
+                  <div class="about-offices__location-text">
+                    Офисы во всех
+                    районах Воронежа
+                  </div>
+                  <a class="default-btn default-btn_location" href="#">
+                    Подробнее
+                    <span class="default-btn__arrow" data-uk-icon="arrow-right"></span>
+                  </a>
+                </div>
+              </div>
             </div>
-            <a href="#" class="footer-bottom__link">
-              Политика конфиденциальности
-            </a>
-            <a href="#" class="footer-bottom__link">
-              Пользовательское соглашение
-            </a>
-            <a class="footer-bottom__devs" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="125" height="40" fill="#48b8dd" viewBox="0 0 936 316">
-                <path d="M136.9,198.3c-3.2,1.7-7.1,0.6-8.8-2.6l-36.6-68.2c-1.7-3.2-0.6-7.1,2.6-8.8c3.2-1.7,7.1-0.6,8.8,2.6l36.6,68.2
+          </div>
+        </section>
+        <section class="about-education innerpage__section">
+          <div class="uk-container uk-container-small">
+            <h2 class="about-education__title innerpage__title">
+              Образовательная деятельность и кадровое агентство
+            </h2>
+            <div class="about-education__text">
+              Компания работает грамотно, но вместе с тем творчески. Быть гибкими, быстро реагировать на все изменения и
+              нововведения, иметь хорошую материально-техническую базу и хорошо подобранный коллектив - главные принципы
+              компании.
+            </div>
+            <div class="about-education__items">
+              <div class="about-education__item">
+                С 2014 года ведутся бухгалтерские курсы для начинающих бухгалтеров и главных бухгалтеров.
+              </div>
+              <div class="about-education__item">
+                Индивидуальное бухгалтерское репетиторство, курсы повышения квалификации, сертификация.
+              </div>
+              <div class="about-education__item">
+                Трудоустройство выпускников, прошедших обучение и показавших высокие результаты.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about-team innerpage__section">
+          <div class="uk-container uk-container-small">
+            <h2 class="about-team__title innerpage__section-title">
+              Наша команда
+            </h2>
+            <div class="about-team__intro">
+              <div>
+                <div class="about-team__director">
+                  <div class="about-team__director-image uk-cover-container">
+                    <img data-uk-cover src="../img/director.jpg" alt="">
+                  </div>
+                  <div class="about-team__director-name">
+                    Кретова Наталья Михайловна
+                  </div>
+                  <div class="about-team__director-position">
+                    директор OOO “КАДиС”
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="team-slogan">
+                  <div class="team-slogan__text">
+                    Бухгалтерский аутсорсинг и аудит.<br> Сократите затраты, доверьте бухгалтерию профессионалам.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-team__group">
+              <div>
+                <div class="team-item">
+                  <div class="team-item__image uk-cover-container">
+                    <img data-uk-cover src="../img/team-item.jpg" alt="">
+                  </div>
+                  <div class="team-item__name">
+                    Юршина Ольга Викторовна
+                  </div>
+                  <div class="team-item__position">
+                    финансовый директор
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="team-item">
+                  <div class="team-item__image uk-cover-container">
+                    <img data-uk-cover src="../img/team-item.jpg" alt="">
+                  </div>
+                  <div class="team-item__name">
+                    Юршина Ольга Викторовна
+                  </div>
+                  <div class="team-item__position">
+                    финансовый директор
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="team-item">
+                  <div class="team-item__image uk-cover-container">
+                    <img data-uk-cover src="../img/team-item.jpg" alt="">
+                  </div>
+                  <div class="team-item__name">
+                    Юршина Ольга Викторовна
+                  </div>
+                  <div class="team-item__position">
+                    финансовый директор
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="team-item">
+                  <div class="team-item__image uk-cover-container">
+                    <img data-uk-cover src="../img/team-item.jpg" alt="">
+                  </div>
+                  <div class="team-item__name">
+                    Юршина Ольга Викторовна
+                  </div>
+                  <div class="team-item__position">
+                    финансовый директор
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about-docs innerpage__section">
+          <div class="uk-container uk-container-small">
+            <h2 class="innerpage__section-title">
+              Сертификаты и лицензии
+            </h2>
+            <ul class="about-docs__list">
+              <li><img src="../img/doc-1.png" alt=""></li>
+              <li><img src="../img/doc-2.png" alt=""></li>
+              <li><img src="../img/doc-3.png" alt=""></li>
+              <li><img src="../img/doc-4.png" alt=""></li>
+              <li><img src="../img/doc-5.png" alt=""></li>
+              <li><img src="../img/doc-6.png" alt=""></li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-main">
+          <div class="uk-container uk-container-small">
+            <div class="footer-main__wrapper js-footer-main-wrapper">
+              <div class="footer-main__leftside">
+                <div class="footer-main__contacts">
+                  <div>
+                    <a class="footer-main__tel tel tel_place_footer" href="tel: +78003021519">
+                      <svg class="tel__icon" width="15" height="16">
+                        <use xlink:href="/img/sprite.svg#tel" />
+                      </svg>
+                      8(800) 302-15-19
+                    </a>
+                  </div>
+                  <div>
+                    <div class="footer-main__time time time_place_footer">
+                      <svg class="time__icon" width="15" height="15">
+                        <use xlink:href="/img/sprite.svg#clock" />
+                      </svg>
+                      Пн-Пт: с 9:00 до18:00
+                    </div>
+                    <a class="footer-main__mail mail mail_place_footer" href="mailto: af_kadis@mail.ru">
+                      <svg class="mail__icon" width="17" height="12">
+                        <use xlink:href="/img/sprite.svg#letter" />
+                      </svg>
+                      af_kadis@mail.ru
+                    </a>
+                  </div>
+                  <ul class="footer-short-menu js-footer-short-menu">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Школа бухгалтеров</a></li>
+                    <li><a href="#">Сертификаты и лицензии</a></li>
+                    <li><a href="#">Наша команда</a></li>
+                  </ul>
+                  <div class="footer-offices">
+                    <div class="footer-offices__heading">
+                      Наши офисы
+                    </div>
+                    <a class="footer-offices__link" href="#">
+                      <svg class="footer-offices__icon" width="12" height="15">
+                        <use xlink:href="/img/sprite.svg#pin" />
+                      </svg>
+                      <span class="footer-offices__text">Смотреть на карте</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-main__rightside uk-grid uk-grid-large uk-child-width-1-3@m">
+                <div>
+                  <section class="footer-menu-section">
+                    <h3 class="footer-menu-section__title">
+                      Бухгалтерский аутсорсинг
+                    </h3>
+                    <ul class="footer-menu-section__list">
+                      <li>
+                        <a href="#">
+                          Бухгалтерский и налоговый учет
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Кадровый учет и делопроизводство
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Составление и сдача отчетности
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Прохождение проверок налоговой, ПФР, ФСС, трудовая инспекция
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Налоговая оптимизация
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Консультирование
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+                <div>
+                  <section class="footer-menu-section">
+                    <h3 class="footer-menu-section__title">
+                      Аудиторские услуги
+                    </h3>
+                    <ul class="footer-menu-section__list">
+                      <li>
+                        <a href="#">
+                          Обязательный аудит
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Инициативный аудит
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Экспресс-аудит по налогам
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Аудиторское сопровождение главного бухгалтера
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+                <div>
+                  <section class="footer-menu-section">
+                    <h3 class="footer-menu-section__title">
+                      Антикризисное управление бухгалтерией и финансами
+                    </h3>
+                    <ul class="footer-menu-section__list">
+                      <li>
+                        <a href="#">
+                          Срочная сдача отчетности при увольнении главного бухгалтера
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Восстановление бухгалтерского учета
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Разблокировка счетов в банках
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Бухгалтерская поддержка при банкротстве
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Оптимизация численности бухгалтерии
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Постановка бухгалтерских учетных процессов заново
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+              <a class="to-top js-to-top" href="#" data-uk-scroll>
+                <span uk-icon="chevron-up"></span>
+                НАВЕРХ
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="uk-container uk-container-small">
+            <div class="footer-bottom__wrapper js-footer-bottom-wrapper">
+              <div class="footer-bottom__owner">
+                © ООО "КАДиС" 1997-2018
+              </div>
+              <a href="#" class="footer-bottom__link">
+                Политика конфиденциальности
+              </a>
+              <a href="#" class="footer-bottom__link">
+                Пользовательское соглашение
+              </a>
+              <a class="footer-bottom__devs" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="125" height="40" fill="#48b8dd" viewBox="0 0 936 316">
+                  <path d="M136.9,198.3c-3.2,1.7-7.1,0.6-8.8-2.6l-36.6-68.2c-1.7-3.2-0.6-7.1,2.6-8.8c3.2-1.7,7.1-0.6,8.8,2.6l36.6,68.2
               		C141.2,192.6,140.1,196.6,136.9,198.3L136.9,198.3z M101.5,127.5l-36.6,68.2c-1.7,3.2-5.7,4.3-8.8,2.6c-3.2-1.7-4.3-5.7-2.6-8.8
               		l36.6-68.2c1.2-2.2,3.5-3.5,5.9-3.4c0.1,0,0.5,0,0.5,0c0.1,0,0.6,0,0.7,0c0.8,0.1,1,0.4,1.7,0.8
               		C102.1,120.4,103.2,124.4,101.5,127.5z" />
-                <path d="M209.5,127.5l-36.6,68.2c-1.7,3.2-5.7,4.3-8.8,2.6c-3.2-1.7-4.3-5.7-2.6-8.8l36.6-68.2c1.7-3.2,5.7-4.3,8.8-2.6
+                  <path d="M209.5,127.5l-36.6,68.2c-1.7,3.2-5.7,4.3-8.8,2.6c-3.2-1.7-4.3-5.7-2.6-8.8l36.6-68.2c1.7-3.2,5.7-4.3,8.8-2.6
               		C210.1,120.4,211.2,124.4,209.5,127.5L209.5,127.5z M168.9,198.3c-3.2,1.7-7.1,0.6-8.8-2.6l-36.6-68.2c-1.7-3.2-0.6-7.1,2.6-8.8
               		c3.2-1.7,7.1-0.6,8.8,2.6l36.6,68.2C173.2,192.6,172.1,196.6,168.9,198.3L168.9,198.3z" />
-                <path d="M240,128c0,0-12-1.2-12,9c0,8,5.7,10,14,13s15,4.3,20,13c4.2,7.4,4.3,21.1-6,29c-10.7,8.2-26.3,6.8-37,2c-4.5-2-4.2-7.3-3-9
+                  <path d="M240,128c0,0-12-1.2-12,9c0,8,5.7,10,14,13s15,4.3,20,13c4.2,7.4,4.3,21.1-6,29c-10.7,8.2-26.3,6.8-37,2c-4.5-2-4.2-7.3-3-9
               		s5.8-2.3,10,0s9.7,2.9,14,2c5.3-1.1,12.8-3.2,13-11s-2-10.5-12-14c-9-3.2-25.8-7.8-25-26c0.3-7.4,5.2-13,10.1-15.4
               		c7-3.5,13-3.8,17.9-2.6c3.8,1,17.3,5.7,14,12C253.6,138.5,245.8,128,240,128L240,128z" />
-                <path d="M305,305V11H11v294H305 M316,316H0V0h316V316L316,316L316,316z" />
-                <text style="font-family: 'Open Sans', sans-serif;
+                  <path d="M305,305V11H11v294H305 M316,316H0V0h316V316L316,316L316,316z" />
+                  <text style="font-family: 'Open Sans', sans-serif;
               	font-size: 110px; fill: #21292c;" x="400" y="130">Сделано в</text>
-                <text style="font-family: 'Open Sans', sans-serif;
+                  <text style="font-family: 'Open Sans', sans-serif;
               	font-size: 110px; letter-spacing: 3px; fill: #21292c;" x="400" y="270" textLength="550">#avsweb</text>
-              </svg>
-            </a>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
+      </footer>
+    </div>
+    <div id="callback-modal" class="uk-flex-top" data-uk-modal>
+      <div class="callback-modal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close callback-modal__close-btn" type="button" data-uk-close></button>
+        <form class="callback-modal__form callback-form">
+          <h2 class="callback-form__title">Заказать звонок</h2>
+          <div class="callback-form__row">
+            <label class="callback-form__label" for="modal-name">Имя</label>
+            <input class="callback-form__input" type="text" name="name" id="modal-name">
+          </div>
+          <div class="callback-form__row">
+            <label class="callback-form__label" for="modal-phone">Телефон</label>
+            <input class="callback-form__input" type="tel" name="tel" id="modal-phone" required>
+          </div>
+          <button class="callback-form__submit default-btn" type="submit">отправить</button>
+          <div class="callback-form__agreement">
+            <input class="callback-form__agreement-checkbox" type="checkbox" id="modal-agreement" required checked>
+            <label class="callback-form__agreement-text" for="modal-agreement">
+              Нажимая кнопку «Отправить», вы подтверждаете согласие на обработку данных и соглашаетесь с политикой
+              конфиденциальности и <a href="#">пользовательским соглашением</a>
+            </label>
+          </div>
+        </form>
       </div>
-    </footer>
-  </div>
-  <div id="callback-modal" class="uk-flex-top" data-uk-modal>
-    <div class="callback-modal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-      <button class="uk-modal-close callback-modal__close-btn" type="button" data-uk-close></button>
-      <form class="callback-modal__form callback-form">
-        <h2 class="callback-form__title">Заказать звонок</h2>
-        <div class="callback-form__row">
-          <label class="callback-form__label" for="modal-name">Имя</label>
-          <input class="callback-form__input" type="text" name="name" id="modal-name">
-        </div>
-        <div class="callback-form__row">
-          <label class="callback-form__label" for="modal-phone">Телефон</label>
-          <input class="callback-form__input" type="tel" name="tel" id="modal-phone" required>
-        </div>
-        <button class="callback-form__submit default-btn" type="submit">отправить</button>
-        <div class="callback-form__agreement">
-          <input class="callback-form__agreement-checkbox" type="checkbox" id="modal-agreement" required checked>
-          <label class="callback-form__agreement-text" for="modal-agreement">
-            Нажимая кнопку «Отправить», вы подтверждаете согласие на обработку данных и соглашаетесь с политикой
-            конфиденциальности и <a href="#">пользовательским соглашением</a>
-          </label>
-        </div>
-      </form>
     </div>
   </div>
   <script src="bundle.js"></script>
