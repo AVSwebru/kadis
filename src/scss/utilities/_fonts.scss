@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Regular.woff"), local("OpenSans Regular"),
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"),
     local("OpenSans-Regular");
   font-weight: normal;
   font-style: normal;
@@ -8,15 +8,14 @@
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Bold.woff"), local("OpenSans Bold"),
-    local("OpenSans-Bold");
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), local("OpenSans-Bold");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Yeseva One";
-  src: url("../fonts/YesevaOne-Regular.woff2"), local("Yeseva One Regular"),
+  src: url("../fonts/YesevaOne-Regular.woff") format("woff"),
     local("Yeseva One-Regular");
   font-weight: normal;
   font-style: normal;

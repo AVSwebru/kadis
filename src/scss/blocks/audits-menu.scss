@@ -8,7 +8,7 @@
 .audits-menu__image {
   margin-bottom: 20px;
   padding-top: 40%;
-  background: #e2e9f0 url('../img/audits-menu.jpg') 50% 50% no-repeat;
+  background: #e2e9f0 url("../img/audits-menu.jpg") 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -38,7 +38,6 @@
   padding: 15px 38px;
   border-left: 8px solid transparent;
   color: #21292c;
-  font-size: 18px;
   line-height: 1;
   &:hover {
     background-color: #c0cedc;

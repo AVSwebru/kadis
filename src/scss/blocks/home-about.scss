@@ -1,5 +1,5 @@
 .home-about {
-  padding: 50px 0 90px;
+  padding: 110px 0 90px;
   background-color: #fff;
   @media (max-width: $breakpoint-medium) {
     padding: 70px 0 50px;
@@ -24,7 +24,7 @@
 
 .home-about__statistics {
   display: flex;
-  align-items: flex-end;
+  // align-items: flex-end;
   justify-content: space-between;
   flex-basis: 70%;
   position: relative;

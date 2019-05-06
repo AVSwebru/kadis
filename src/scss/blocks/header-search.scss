@@ -10,7 +10,7 @@
         top: 0;
         left: 0;
         z-index: 10;
-        background-color: rgba(0,0,0,.9);
+        background-color: rgba(0, 0, 0, 0.9);
       }
     }
   }
@@ -35,7 +35,11 @@
   }
 }
 
-.header-search__input  {
+.header-search__input {
+  padding: 0 20px 0 0;
+  &::placeholder {
+    font-size: 14px;
+  }
   @media (max-width: $breakpoint-small) {
     color: #fff;
   }
