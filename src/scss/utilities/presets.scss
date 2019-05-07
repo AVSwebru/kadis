@@ -1,0 +1,15 @@
+*:focus {
+  outline-color: #48b8dd;
+}
+
+input,
+textarea,
+select,
+button {
+  appearance: none;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}

@@ -7,6 +7,10 @@
   &:hover {
     color: #48b8dd;
   }
+  &:focus {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+  }
 }
 
 .callback-modal__form {

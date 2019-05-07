@@ -5,9 +5,14 @@
   padding: 40px 30px 55px;
   &:hover {
     background-color: #ebebeb;
+    text-decoration: none;
     .news-item__more {
       opacity: 1;
+      color: #306e85;
       transition: opacity 0.25s;
+    }
+    .news-item__title {
+      color: #306e85;
     }
   }
   @media (max-width: $breakpoint-small) {
@@ -33,11 +38,6 @@
 
 .news-item__title-link {
   @include m-no-link-decor;
-  &:hover {
-    .news-item__title {
-      color: #306e85;
-    }
-  }
 }
 
 .news-item__title {
@@ -76,7 +76,4 @@
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
-  &:hover {
-    color: #306e85;
-  }
 }
