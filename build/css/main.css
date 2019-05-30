@@ -6465,6 +6465,8 @@ button {
   .callback-form__input:focus {
     box-shadow: 0 0 5px 1px rgba(123, 253, 255, 0.71);
     border: 1px solid #89e2ff; }
+  .callback-form__input:invalid {
+    box-shadow: none; }
   @media (max-width: 640px) {
     .callback-form__input {
       width: 100%;
