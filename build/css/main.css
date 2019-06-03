@@ -5859,6 +5859,9 @@ button {
     .default-btn:hover .default-btn__arrow {
       -webkit-animation: arrow-move 0.25s ease-out;
               animation: arrow-move 0.25s ease-out; }
+  .default-btn_services {
+    min-width: 190px;
+    margin-top: 30px; }
   .default-btn_location {
     width: 100%; }
     @media (max-width: 960px) {

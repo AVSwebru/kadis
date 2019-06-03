@@ -21,6 +21,10 @@
       animation: arrow-move 0.25s ease-out;
     }
   }
+  &_services {
+    min-width: 190px;
+    margin-top: 30px;
+  }
   &_location {
     width: 100%;
     @media (max-width: $breakpoint-medium) {
