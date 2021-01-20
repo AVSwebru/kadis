@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "eslint": "^5.0.1",
-    "gsap": "^2.0.2",
+    "gsap": "^3.6.0",
     "scrollmagic": "^2.0.6"
   },
   "prettier": {
